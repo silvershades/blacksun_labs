@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body *{
+    font-family: "Fira sans",sans-serif;
+    color:#041939!important;
+}

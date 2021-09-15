@@ -8,6 +8,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{asset("css/app.css")}}">
+    <link rel="stylesheet" href="{{asset("css/styles.css")}}">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +21,6 @@
         <div class=""></div>
         <div class="col-span-4 align-middle text-center">
             <img src="{{asset("img/logo.svg")}}" class="object-contain h-48 mx-auto" alt="black sun labs logo">
-            <h1 class="text-black-50 text-5xl font-bold mx-auto mt-10">BSL</h1>
             <h1 class="text-black-50 text-5xl font-medium mx-auto mt-10">Black Sun Labs</h1>
             <p class="font-light text-xl">WEB DEVELOPMENT</p>
         </div>

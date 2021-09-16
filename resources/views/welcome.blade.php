@@ -74,14 +74,15 @@
                     itaque
                     maxime nam numquam quisquam sed velit voluptatibus. Fugit, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, assumenda aut consequatur
                     consequuntur, eveniet fugiat in incidunt magni, </p>
-                <h4 class="mt-5 text-yellow-400  text-3xl">BRAND CREATION</h4>
-                <h5 class="font-mono text-lg">{Respect - Adapt - Represent - Success}</h5>
+                <h4 class="mt-5 text-yellow-400  text-3xl">MAINTENANCE</h4>
+                <h5 class="font-mono text-lg">{Optional - Bugs/errors - Updates - Backups}</h5>
                 <p class="mt-1 text-xl  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem consequatur cupiditate delectus deserunt dolor ea eaque est, impedit ipsum
                     itaque
                     maxime nam numquam quisquam sed velit voluptatibus. Fugit, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, assumenda aut consequatur
                     consequuntur, eveniet fugiat in incidunt magni, </p>
-
-
+                <div class="text-center mt-10">
+                    <a href="#" class="bg-yellow-400 p-4 text-3xl rounded inline-block">Contact us</a>
+                </div>
             </div>
         </div>
 
@@ -92,15 +93,5 @@
 
 
 </body>
-<script>
-    var cursors = document.getElementsByClassName("cursor_fx");
-    console.log(cursors);
-    for (cursor in cursors) {
-        if (cursor.style.display === "none") {
-            cursor.style.display = "block";
-        } else {
-            cursor.style.display = "none";
-        }
-    }
-</script>
+
 </html>

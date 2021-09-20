@@ -19,10 +19,14 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
-<body class="font-serif text-gray-900">
-<header class="h-screen container mx-auto">
-    <nav class="h-24" id="navbar">
-        <ul class="grid grid-cols-5 gap-4 text-center items-center h-20 text-lg">
+<body class="font-serif text-gray-700">
+<header class="min-h-screen container mx-auto relative">
+    <nav class="h-20 absolute top-0 left-0 right-0 z-10 flex" id="navbar">
+        <div class="flex flex-row items-center w-1/3 space-x-4">
+            <img src="{{asset("img/logo.svg")}}" alt="Black Sun Labs logo" class="object-contain h-12">
+            <h1 class="text-3xl font-bold text-gray-700">Black Sun <span class="font-normal bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text">Labs</span></h1>
+        </div>
+        <ul class=" grid grid-cols-5 gap-4 text-center items-center h-20 text-lg w-2/3">
             <li class=""><a href="#">About us</a></li>
             <li class=""><a href="#">Services</a></li>
             <li class=""><a href="#">Portfolio</a></li>
@@ -30,43 +34,64 @@
             <li class=""><a href="#">Clients</a></li>
         </ul>
     </nav>
-    <div>
-        <div class="flex items-center h-40 space-x-10 p-20 mt-8">
-            <img src="{{asset("img/logo.svg")}}" alt="Black Sun Labs logo" class="w-28 inline-block">
-            <div>
-                <h1 class="text-6xl font-bold inline-block text-right mb-2">Black Sun <span class="font-thin">Labs</span></h1>
-                <p class="font-mono text-lg text-gray-500">/** Web and software development */</p>
+    <div class="grid grid-cols-2 min-h-screen items-center gap-4 relative">
+        <div class="p-5">
+            <div class="flex flex-col items-center">
+                <h1 class="text-7xl font-bold mb-2 bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text"><span class="font-thin text-gray-700">Development of </span>
+                    Webs, Apps, Software and Brands</h1>
+
+                <p class="font-mono text-lg text-gray-500">  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                    </svg> Welcome to BSL! Let's work togheter to create something unique for your needs.</p>
+{{--                <a href="#" class="border-blue-400 border-2 p-4 rounded text-2xl mt-20">Write to us</a>--}}
             </div>
+
         </div>
-        <div class="mt-20 ">
-            <p class="text-7xl text-right inline-block">
-                <span class="text-7xl text-right font-light text-gray-200">array[1] = </span>
-                <span class="text-yellow-400 "> ["</span>
-                Let's work together and create something unique for your needs!
-                <span class="text-yellow-400 "> "]</span>
-            </p>
-            <p class="font-mono text-lg text-right mt-3 text-indigo-400">/** Creating solutions since 2006 */</p>
+        <div class="p-5">
+            <img src="{{asset("img/banner.svg")}}" alt="Black Sun Labs logo" class="object-contain h-full">
         </div>
-        <div class=" mt-20 text-center space-x-10">
-            <a href="#" class="bg-yellow-400 p-4 text-3xl rounded">See more</a>
-            <a href="#" class="bg-yellow-400 p-4 text-3xl rounded">Write to us</a>
-        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10  absolute bottom-8 mx-auto " fill="none" viewBox="0 0 24 24" stroke="url(#grad1)" >
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="50%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 17l-4 4m0 0l-4-4m4 4V3" />
+        </svg>
     </div>
 </header>
-<main class="">
 
+<main class="">
+    <div class="grid grid-cols-3 gap-4 items-center h-full">
+        <div class="items-center">
+            <div>
+                <h2 class="text-6xl">Web <br>Development</h2>
+                <div class="p-4">
+                    <img src="{{asset("img/maintenance.svg")}}" alt="web design svg" class="max-h-64 my-8 mx-auto">
+                </div>
+                <p class="text-lg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eveniet impedit pariatur repellat. Accusantium aut enim facere fugit laboriosam maxime praesentium quasi sint sunt temporibus? Assumenda autem
+                    dolorem maxime perferendis.
+                </p>
+                <div class="text-center mt-8">
+                    <a href="#" class="inline-block bg-yellow-400 p-3 text-2xl rounded">See more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <section class="min-h-screen container mx-auto align-middle items-center" id="services">
         <h2 class="text-7xl mb-8">Services</h2>
         <div class="flex">
-            <div class="inline-block bg-indigo-50 text-white p-2 w-20 text-2xl text-center mr-5 " id="editorNumbers">
+            {{--            <div class="inline-block bg-indigo-50 text-white p-2 w-20 text-2xl text-center mr-5 " id="editorNumbers">--}}
 
-            </div>
+            {{--            </div>--}}
             <div class="h-auto" id="services_div">
                 <div>
 
                     <!-- WEB DEVELOPMENT -->
-                    <h3 class="text-5xl mb-8 inline-block"><span class="font-light text-gray-200 ">function </span>Web<span class="font-light text-gray-200">_</span>Development<span class="font-light text-gray-200">(){</span>
-                    </h3>
+                    <h3 class="text-5xl mb-8 inline-block">Web Development</h3>
                     <div class="grid grid-cols-1  lg:grid-cols-3 gap-8 items-center mb-8">
                         <div class="p-4 ">
                             <h4 class="mt-5 mb-5 text-yellow-400 text-4xl text-center">FRONTEND</h4>

@@ -23,8 +23,8 @@
 <header class="min-h-screen container mx-auto relative">
     <nav class="h-20 absolute top-0 left-0 right-0 z-10 flex" id="navbar">
         <div class="flex flex-row items-center w-1/3 space-x-4">
-            <img src="{{asset("img/logo.svg")}}" alt="Black Sun Labs logo" class="object-contain h-12">
-            <h1 class="text-3xl font-bold text-gray-700">Black Sun <span class="font-normal bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text">Labs</span></h1>
+            <img src="{{asset("img/logo2.svg")}}" alt="Black Sun Labs logo" class="object-contain h-16">
+            <h1 class="text-3xl font-bold text-gray-700">Black Sun <span class="font-thin">Labs</span></h1>
         </div>
         <ul class=" grid grid-cols-5 gap-4 text-center items-center h-20 text-lg w-2/3">
             <li class=""><a href="#">About us</a></li>

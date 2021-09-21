@@ -23,7 +23,7 @@
 <header class="min-h-screen container mx-auto relative">
     <nav class="h-20 absolute top-0 left-0 right-0 z-10 flex" id="navbar">
         <div class="flex flex-row items-center w-1/3 space-x-4">
-            <img src="{{asset("img/logo2.svg")}}" alt="Black Sun Labs logo" class="object-contain h-16">
+            <img src="{{asset("img/logo8.svg")}}" alt="Black Sun Labs logo" class="object-contain h-12">
             <h1 class="text-3xl font-bold text-gray-700">Black Sun <span class="font-thin">Labs</span></h1>
         </div>
         <ul class=" grid grid-cols-5 gap-4 text-center items-center h-20 text-lg w-2/3">
@@ -40,179 +40,128 @@
                 <h1 class="text-7xl font-bold mb-2 bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text"><span class="font-thin text-gray-700">Development of </span>
                     Webs, Apps, Software and Brands</h1>
 
-                <p class="font-mono text-lg text-gray-500">  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-                    </svg> Welcome to BSL! Let's work together to create something unique for your needs.</p>
-{{--                <a href="#" class="border-blue-400 border-2 p-4 rounded text-2xl mt-20">Write to us</a>--}}
+                <p class="font-mono text-lg text-gray-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/>
+                    </svg>
+                    Welcome to BSL! Let's work together to create something unique for your needs.
+                </p>
+                {{--                <a href="#" class="border-blue-400 border-2 p-4 rounded text-2xl mt-20">Write to us</a>--}}
             </div>
 
         </div>
         <div class="p-5">
             <img src="{{asset("img/banner.svg")}}" alt="Black Sun Labs logo" class="object-contain h-full">
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10  absolute bottom-8 mx-auto " fill="none" viewBox="0 0 24 24" stroke="url(#grad1)" >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10  absolute bottom-8 mx-auto " fill="none" viewBox="0 0 24 24" stroke="url(#grad1)">
             <defs>
                 <linearGradient id="grad1" x1="0%" y1="50%" x2="100%" y2="0%">
-                    <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
-                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                    <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1"/>
+                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1"/>
                 </linearGradient>
             </defs>
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 17l-4 4m0 0l-4-4m4 4V3" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 17l-4 4m0 0l-4-4m4 4V3"/>
         </svg>
     </div>
 </header>
 
 <main class="">
-    <div class="grid grid-cols-3 gap-4 items-center h-full">
-        <div class="items-center">
-            <div>
-                <h2 class="text-6xl">Web <br>Development</h2>
-                <div class="p-4">
-                    <img src="{{asset("img/maintenance.svg")}}" alt="web design svg" class="max-h-64 my-8 mx-auto">
+    <section class="min-h-screen  p-8">
+        <div class="container mx-auto ">
+            <h2 class="inline-block text-6xl bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text font-bold">Web <span class="font-thin text-gray-700">Development</span></h2>
+            <p class="font-mono">Available services: <span>8</span></p>
+            <div class="grid grid-cols-3 gap-10 mt-10 text-center">
+                <div class="border shadow-sm rounded-lg p-8 overflow-hidden">
+                    <h3 class="inline-block text-4xl bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text font-bold">UI/UX <span class="font-thin text-gray-700">Design</span></h3>
+                    <p class=" text-lg mt-2">Give a new face to your business</p>
+                    <div class="my-5 h-64 bg-gradient-to-bl from-blue-400 to-purple-500 -mx-8 py-4  shadow-md">
+                        <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-h-64 mx-auto ">
+                    </div>
+                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
+                        vel?</p>
+                    <ul class="text-lg font-normal my-5">
+                        <li class="flex  justify-center items-center space-x-4 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Responsive</span></li>
+                        <li class="flex justify-center  items-center space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Compatible</span></li>
+                        <li class="flex justify-center  items-center space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Responsive</span></li>
+                    </ul>
+                    <div class="mt-10 mb-2">
+                        <a href="#" class="py-2 px-8 bg-gradient-to-bl from-blue-400 to-purple-500 rounded text-white text-lg">Contact BSL</a>
+                    </div>
                 </div>
-                <p class="text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eveniet impedit pariatur repellat. Accusantium aut enim facere fugit laboriosam maxime praesentium quasi sint sunt temporibus? Assumenda autem
-                    dolorem maxime perferendis.
-                </p>
-                <div class="text-center mt-8">
-                    <a href="#" class="inline-block bg-yellow-400 p-3 text-2xl rounded">See more</a>
+                <div class="border shadow-sm rounded-lg p-8 overflow-hidden">
+                    <h3 class="inline-block text-4xl bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text font-bold">SEO<span class="font-thin text-gray-700"> Optimization</span></h3>
+                    <p class=" text-lg mt-2">Give a new face to your business</p>
+                    <div class="my-5 h-64 bg-gradient-to-bl from-blue-400 to-purple-500 -mx-8 py-4  shadow-md">
+                        <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-h-64 mx-auto ">
+                    </div>
+                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
+                        vel?</p>
+                    <ul class="text-lg font-normal my-5">
+                        <li class="flex  justify-center items-center space-x-4 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Responsive</span></li>
+                        <li class="flex justify-center  items-center space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Compatible</span></li>
+                        <li class="flex justify-center  items-center space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Responsive</span></li>
+                    </ul>
+                    <div class="mt-10 mb-2">
+                        <a href="#" class="py-2 px-8 bg-gradient-to-bl from-blue-400 to-purple-500 rounded text-white text-lg">Contact BSL</a>
+                    </div>
                 </div>
+                <div class="border shadow-sm rounded-lg p-8 overflow-hidden">
+                    <h3 class="inline-block text-4xl bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text font-bold">BACKEND <span class="font-thin text-gray-700">Development</span></h3>
+                    <p class=" text-lg mt-2">Give a new face to your business</p>
+                    <div class="my-5 h-64 bg-gradient-to-bl from-blue-400 to-purple-500 -mx-8 py-4  shadow-md">
+                        <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-h-64 mx-auto ">
+                    </div>
+                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
+                        vel?</p>
+                    <ul class="text-lg font-normal my-5">
+                        <li class="flex  justify-center items-center space-x-4 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Responsive</span></li>
+                        <li class="flex justify-center  items-center space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Compatible</span></li>
+                        <li class="flex justify-center  items-center space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Responsive</span></li>
+                    </ul>
+                    <div class="mt-10 mb-2">
+                        <a href="#" class="py-2 px-8 bg-gradient-to-bl from-blue-400 to-purple-500 rounded text-white text-lg">Contact BSL</a>
+                    </div>
+                </div>
+
             </div>
         </div>
-
-    </div>
-    <section class="min-h-screen container mx-auto align-middle items-center" id="services">
-        <h2 class="text-7xl mb-8">Services</h2>
-        <div class="flex">
-            {{--            <div class="inline-block bg-indigo-50 text-white p-2 w-20 text-2xl text-center mr-5 " id="editorNumbers">--}}
-
-            {{--            </div>--}}
-            <div class="h-auto" id="services_div">
-                <div>
-
-                    <!-- WEB DEVELOPMENT -->
-                    <h3 class="text-5xl mb-8 inline-block">Web Development</h3>
-                    <div class="grid grid-cols-1  lg:grid-cols-3 gap-8 items-center mb-8">
-                        <div class="p-4 ">
-                            <h4 class="mt-5 mb-5 text-yellow-400 text-4xl text-center">FRONTEND</h4>
-                            <h5 class=" mb-5 font-mono text-md text-center text-indigo-400">/** Responsive - Innovative - Compatible */</h5>
-                            <div class="p-4">
-                                <img src="{{asset("img/web_design.svg")}}" alt="web design svg" class=" mx-auto">
-                            </div>
-                            <p class="mt-1 text-xl  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem consequatur cupiditate delectus deserunt dolor ea eaque est, impedit ipsum
-                                itaque
-                                maxime nam numquam quisquam sed velit voluptatibus. Fugit, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, assumenda aut consequatur
-                                consequuntur, eveniet fugiat in incidunt magni, </p>
-                        </div>
-                        <div class=" p-4 ">
-                            <h4 class="mt-5 mb-5 text-yellow-400 text-4xl text-center">BACKEND</h4>
-                            <h5 class=" mb-5 font-mono text-md text-center text-indigo-400">/** Robust - Secure - Escalable */</h5>
-                            <div class="p-4">
-                                <img src="{{asset("img/backend.svg")}}" alt="web design svg" class="mx-auto">
-                            </div>
-                            <p class="mt-1 text-xl  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem consequatur cupiditate delectus deserunt dolor ea eaque est, impedit ipsum
-                                itaque
-                                maxime nam numquam quisquam sed velit voluptatibus. Fugit, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, assumenda aut consequatur
-                                consequuntur, eveniet fugiat in incidunt magni, </p>
-                        </div>
-                        <div class=" p-4 ">
-                            <h4 class="mt-5 mb-5 text-yellow-400 text-4xl text-center">MAINTENANCE</h4>
-                            <h5 class=" mb-5 font-mono text-md text-center text-indigo-400">/** Hosting - Updates - Backups */</h5>
-                            <div class="p-4">
-                                <img src="{{asset("img/maintenance.svg")}}" alt="web design svg">
-                            </div>
-                            <p class="mt-1 text-xl  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem consequatur cupiditate delectus deserunt dolor ea eaque est, impedit ipsum
-                                itaque
-                                maxime nam numquam quisquam sed velit voluptatibus. Fugit, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, assumenda aut consequatur
-                                consequuntur, eveniet fugiat in incidunt magni, </p>
-                        </div>
-                    </div>
-                    <p class="text-5xl mb-8 font-light text-gray-200 ">}</p>
-                    <!-- BRAND CREATION -->
-                    <h3 class="text-5xl mb-8 inline-block"><span class="font-light text-gray-200 ">function </span>Branding<span class="font-light text-gray-200">(){</span>
-                    </h3>
-                    <div class="grid grid-cols-1  lg:grid-cols-3 gap-8 items-center mb-8">
-                        <div class="p-4 ">
-                            <h4 class="mt-5 mb-5 text-yellow-400 text-4xl text-center">FRONTEND</h4>
-                            <h5 class=" mb-5 font-mono text-md text-center">{Responsive - Innovative - SEO - Compatible}</h5>
-                            <div class="p-4">
-                                <img src="{{asset("img/web_design.svg")}}" alt="web design svg" class=" mx-auto">
-                            </div>
-                            <p class="mt-1 text-xl  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem consequatur cupiditate delectus deserunt dolor ea eaque est, impedit ipsum
-                                itaque
-                                maxime nam numquam quisquam sed velit voluptatibus. Fugit, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, assumenda aut consequatur
-                                consequuntur, eveniet fugiat in incidunt magni, </p>
-                        </div>
-                        <div class=" p-4 ">
-                            <h4 class="mt-5 mb-5 text-yellow-400 text-4xl text-center">BACKEND</h4>
-                            <h5 class=" mb-5 font-mono text-md text-center">{Robust - Secure - No Shorcuts - Escalable}</h5>
-                            <div class="p-4">
-                                <img src="{{asset("img/backend.svg")}}" alt="web design svg" class="mx-auto">
-                            </div>
-                            <p class="mt-1 text-xl  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem consequatur cupiditate delectus deserunt dolor ea eaque est, impedit ipsum
-                                itaque
-                                maxime nam numquam quisquam sed velit voluptatibus. Fugit, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, assumenda aut consequatur
-                                consequuntur, eveniet fugiat in incidunt magni, </p>
-                        </div>
-                        <div class=" p-4 ">
-                            <h4 class="mt-5 mb-5 text-yellow-400 text-4xl text-center">MAINTENANCE</h4>
-                            <h5 class=" mb-5 font-mono text-md text-center">{Host - Bugs/errors - Updates - Backups}</h5>
-                            <div class="p-4">
-                                <img src="{{asset("img/maintenance.svg")}}" alt="web design svg">
-                            </div>
-                            <p class="mt-1 text-xl  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem consequatur cupiditate delectus deserunt dolor ea eaque est, impedit ipsum
-                                itaque
-                                maxime nam numquam quisquam sed velit voluptatibus. Fugit, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, assumenda aut consequatur
-                                consequuntur, eveniet fugiat in incidunt magni, </p>
-                        </div>
-                    </div>
-                    <p class="text-5xl mb-8 font-light text-gray-200 ">}</p>
-                    <!-- SOFTWARE DEVELOPMENT -->
-                    <h3 class="text-5xl mb-8 inline-block"><span class="font-light text-gray-200 ">function </span>Software<span class="font-light text-gray-200">_</span>Development<span
-                            class="font-light text-gray-200">(){</span>
-                    </h3>
-                    <div class="grid grid-cols-1  lg:grid-cols-3 gap-8 items-center mb-8">
-                        <div class="p-4 ">
-                            <h4 class="mt-5 mb-5 text-yellow-400 text-4xl text-center">FRONTEND</h4>
-                            <h5 class=" mb-5 font-mono text-md text-center">{Responsive - Innovative - SEO - Compatible}</h5>
-                            <div class="p-4">
-                                <img src="{{asset("img/web_design.svg")}}" alt="web design svg" class=" mx-auto">
-                            </div>
-                            <p class="mt-1 text-xl  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem consequatur cupiditate delectus deserunt dolor ea eaque est, impedit ipsum
-                                itaque
-                                maxime nam numquam quisquam sed velit voluptatibus. Fugit, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, assumenda aut consequatur
-                                consequuntur, eveniet fugiat in incidunt magni, </p>
-                        </div>
-                        <div class=" p-4 ">
-                            <h4 class="mt-5 mb-5 text-yellow-400 text-4xl text-center">BACKEND</h4>
-                            <h5 class=" mb-5 font-mono text-md text-center">{Robust - Secure - No Shorcuts - Escalable}</h5>
-                            <div class="p-4">
-                                <img src="{{asset("img/backend.svg")}}" alt="web design svg" class="mx-auto">
-                            </div>
-                            <p class="mt-1 text-xl  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem consequatur cupiditate delectus deserunt dolor ea eaque est, impedit ipsum
-                                itaque
-                                maxime nam numquam quisquam sed velit voluptatibus. Fugit, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, assumenda aut consequatur
-                                consequuntur, eveniet fugiat in incidunt magni, </p>
-                        </div>
-                        <div class=" p-4 ">
-                            <h4 class="mt-5 mb-5 text-yellow-400 text-4xl text-center">MAINTENANCE</h4>
-                            <h5 class=" mb-5 font-mono text-md text-center">{Host - Bugs/errors - Updates - Backups}</h5>
-                            <div class="p-4">
-                                <img src="{{asset("img/maintenance.svg")}}" alt="web design svg">
-                            </div>
-                            <p class="mt-1 text-xl  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, autem consequatur cupiditate delectus deserunt dolor ea eaque est, impedit ipsum
-                                itaque
-                                maxime nam numquam quisquam sed velit voluptatibus. Fugit, optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet, assumenda aut consequatur
-                                consequuntur, eveniet fugiat in incidunt magni, </p>
-                        </div>
-                    </div>
-                    <p class="text-5xl mb-8 font-light text-gray-200 ">}</p>
-                </div>
-            </div>
-        </div>
-
     </section>
-
 </main>
 
 

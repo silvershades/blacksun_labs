@@ -6,9 +6,12 @@ module.exports = {
             mono: ['Fira Mono', 'monospace'],
             serif: ['Urbanist', 'serif'],
         },
-        extend: {},
+        extend: {
+
+        },
     },
     variants: {
+        linearGradients: ['hover', 'responsive'],
         extend: {},
     },
     plugins: [],

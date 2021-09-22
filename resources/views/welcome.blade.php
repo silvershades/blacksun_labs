@@ -17,9 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    {{--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>--}}
 </head>
-<body class="font-serif text-gray-700">
+<body class="font-serif text-gray-700 bg-gray-50">
 <header class="min-h-screen container mx-auto relative">
     <nav class="h-20 absolute top-0 left-0 right-0 z-10 flex" id="navbar">
         <div class="flex flex-row items-center w-1/3 space-x-4">
@@ -37,7 +37,7 @@
     <div class="grid grid-cols-2 min-h-screen items-center gap-4 relative">
         <div class="p-5">
             <div class="flex flex-col items-center">
-                <h1 class="text-7xl font-bold mb-2 bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text"><span class="font-thin text-gray-700">Development of </span>
+                <h1 class="text-7xl font-bold mb-2 text-gray-700 text-transparent bg-clip-text"><span class="font-thin text-gray-700">Development of </span>
                     Webs, Apps, Software and Brands</h1>
 
                 <p class="font-mono text-lg text-gray-500">
@@ -53,7 +53,7 @@
         <div class="p-5">
             <img src="{{asset("img/banner.svg")}}" alt="Black Sun Labs logo" class="object-contain h-full">
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10  absolute bottom-8 mx-auto " fill="none" viewBox="0 0 24 24" stroke="url(#grad1)">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10  absolute bottom-8 mx-auto z-10" fill="none" viewBox="0 0 24 24" stroke="url(#grad1)">
             <defs>
                 <linearGradient id="grad1" x1="0%" y1="50%" x2="100%" y2="0%">
                     <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1"/>
@@ -67,218 +67,171 @@
 
 <main class="">
     <section class="min-h-screen bg-gray-50 p-8">
+        <!-- WEB DEVELOPMENT ------------->
         <div class="container mx-auto ">
-            <h2 class="inline-block text-6xl bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text font-bold">Web <span class="font-thin text-gray-700">Development</span></h2>
-            <p class="font-mono">Available services: <span>8</span></p>
+            <h3 class="inline-block text-6xl font-bold leading-tight"><span class="font-thin text-gray-700">Our</span> Services</h3>
+            <p class="font-mono text-gray-500">Available services: <span>10</span></p>
             <div class="grid grid-cols-3 gap-10 mt-10 text-center">
                 <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
-                    <h3 class="inline-block text-4xl bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text font-bold">UI/UX <span class="font-thin text-gray-700">Design</span></h3>
-                    <p class=" text-lg mt-2">Give a new face to your business</p>
-                    <div class="my-5 h-64 bg-gradient-to-bl from-blue-400 to-purple-500 -mx-8 py-4  shadow-md">
-                        <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-h-64 mx-auto ">
-                    </div>
-                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
-                        vel?</p>
-                    <ul class="text-lg font-normal my-5">
-                        <li class="flex  justify-center items-center space-x-4 ">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Compatible</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                    </ul>
-                    <div class="mt-10 mb-2">
-                        <a href="#" class="py-2 px-8 bg-gradient-to-bl from-blue-400 to-purple-500 rounded text-white text-lg">Contact BSL</a>
-                    </div>
-                </div>
-                <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
-                    <h3 class="inline-block text-4xl bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text font-bold">SEO<span class="font-thin text-gray-700"> Optimization</span></h3>
-                    <p class=" text-lg mt-2">Give a new face to your business</p>
-                    <div class="my-5 h-64 bg-gradient-to-bl from-blue-400 to-purple-500 -mx-8 py-4  shadow-md">
-                        <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-h-64 mx-auto ">
-                    </div>
-                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
-                        vel?</p>
-                    <ul class="text-lg font-normal my-5">
-                        <li class="flex  justify-center items-center space-x-4 ">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Compatible</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                    </ul>
-                    <div class="mt-10 mb-2">
-                        <a href="#" class="py-2 px-8 bg-gradient-to-bl from-blue-400 to-purple-500 rounded text-white text-lg">Contact BSL</a>
-                    </div>
-                </div>
-                <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
-                    <h3 class="inline-block text-4xl bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text font-bold">BACKEND <span class="font-thin text-gray-700">Development</span></h3>
-                    <p class=" text-lg mt-2">Give a new face to your business</p>
-                    <div class="my-5 h-64 bg-gradient-to-bl from-blue-400 to-purple-500 -mx-8 py-4  shadow-md">
-                        <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-h-64 mx-auto ">
-                    </div>
-                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
-                        vel?</p>
-                    <ul class="text-lg font-normal my-5">
-                        <li class="flex  justify-center items-center space-x-4 ">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Compatible</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                    </ul>
-                    <div class="mt-10 mb-2">
-                        <a href="#" class="py-2 px-8 bg-gradient-to-bl from-blue-400 to-purple-500 rounded text-white text-lg">Contact BSL</a>
-                    </div>
-                </div>
+                    <p class=" p-2 -mx-8 font-mono text-sm">Web Development</p>
+                    <h4 class="inline-block text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">UI/UX <span class="font-thin text-gray-700">Design</span></h4>
+                    {{--                    <p class=" text-lg mt-2">Give a new face to your business</p>--}}
 
-            </div>
-            <div class="grid grid-cols-3 gap-10 mt-10 text-center">
-                <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
-                    <h3 class="inline-block text-4xl bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text font-bold">UI/UX <span class="font-thin text-gray-700">Design</span></h3>
-                    <p class=" text-lg mt-2">Give a new face to your business</p>
-                    <div class="my-5 h-64 bg-gradient-to-bl from-blue-400 to-purple-500 -mx-8 py-4  shadow-md">
-                        <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-h-64 mx-auto ">
+                    <div class="my-5 h-64 bg-gradient-to-bl from-gray-600 to-blue-700 -mx-8 p-4  shadow-md grid grid-cols-2 gap-4 items-center">
+                        <div>
+                            <p class="text-white font-thin text-3xl leading-10">Responsive</p>
+                            <p class="text-white font-thin text-3xl leading-10">Compatible</p>
+                            <p class="text-white font-thin text-3xl leading-10">Multi-platform</p>
+                        </div>
+                        <div>
+                            <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-w-full max-h-56 mx-auto ">
+                        </div>
                     </div>
-                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
+                    <p class="text-gray-700 text-lg mt-7 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
                         vel?</p>
-                    <ul class="text-lg font-normal my-5">
-                        <li class="flex  justify-center items-center space-x-4 ">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Compatible</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                    </ul>
-                    <div class="mt-10 mb-2">
-                        <a href="#" class="py-2 px-8 bg-gradient-to-bl from-blue-400 to-purple-500 rounded text-white text-lg">Contact BSL</a>
+                    <div class="grid grid-cols-2 gap-4 items-center justify-center mt-6 mb-2">
+                        <div>
+                            <a href="#" class="inline-block flex items-center justify-center py-3 border rounded shadow transition-all duration-300
+                                hover:shadow-md bg-gradient-to-bl hover:from-gray-600 hover:to-blue-700  hover:from-white hover:to-white hover:text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                </svg>
+                                View more
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="inline-block flex items-center justify-center p-4 border rounded">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                </svg>
+                                Contact BSL
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
-                    <h3 class="inline-block text-4xl bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text font-bold">SEO<span class="font-thin text-gray-700"> Optimization</span></h3>
-                    <p class=" text-lg mt-2">Give a new face to your business</p>
-                    <div class="my-5 h-64 bg-gradient-to-bl from-blue-400 to-purple-500 -mx-8 py-4  shadow-md">
-                        <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-h-64 mx-auto ">
-                    </div>
-                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
-                        vel?</p>
-                    <ul class="text-lg font-normal my-5">
-                        <li class="flex  justify-center items-center space-x-4 ">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Compatible</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                    </ul>
-                    <div class="mt-10 mb-2">
-                        <a href="#" class="py-2 px-8 bg-gradient-to-bl from-blue-400 to-purple-500 rounded text-white text-lg">Contact BSL</a>
-                    </div>
-                </div>
-                <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
-                    <h3 class="inline-block text-4xl bg-gradient-to-bl from-blue-400 to-purple-500 text-transparent bg-clip-text font-bold">BACKEND <span class="font-thin text-gray-700">Development</span></h3>
-                    <p class=" text-lg mt-2">Give a new face to your business</p>
-                    <div class="my-5 h-64 bg-gradient-to-bl from-blue-400 to-purple-500 -mx-8 py-4  shadow-md">
-                        <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-h-64 mx-auto ">
-                    </div>
-                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
-                        vel?</p>
-                    <ul class="text-lg font-normal my-5">
-                        <li class="flex  justify-center items-center space-x-4 ">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Compatible</span></li>
-                        <li class="flex justify-center  items-center space-x-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            <span>Responsive</span></li>
-                    </ul>
-                    <div class="mt-10 mb-2">
-                        <a href="#" class="py-2 px-8 bg-gradient-to-bl from-blue-400 to-purple-500 rounded text-white text-lg">Contact BSL</a>
-                    </div>
-                </div>
 
+                </div>
+                <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
+                    <p class=" p-2 -mx-8 font-mono text-sm">Web Development</p>
+                    <h4 class="inline-block text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">UI/UX <span class="font-thin text-gray-700">Design</span></h4>
+                    {{--                    <p class=" text-lg mt-2">Give a new face to your business</p>--}}
+
+                    <div class="my-5 h-64 bg-gradient-to-bl from-gray-600 to-blue-700 -mx-8 p-4  shadow-md grid grid-cols-2 gap-4 items-center">
+                        <div>
+                            <p class="text-white font-thin text-3xl leading-10">Responsive</p>
+                            <p class="text-white font-thin text-3xl leading-10">Compatible</p>
+                            <p class="text-white font-thin text-3xl leading-10">Multi-platform</p>
+                        </div>
+                        <div>
+                            <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-w-full max-h-56 mx-auto ">
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
+                        vel?</p>
+
+                </div>
+                <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
+                    <p class=" p-2 -mx-8 font-mono text-sm">Web Development</p>
+                    <h4 class="inline-block text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">UI/UX <span class="font-thin text-gray-700">Design</span></h4>
+                    {{--                    <p class=" text-lg mt-2">Give a new face to your business</p>--}}
+
+                    <div class="my-5 h-64 bg-gradient-to-bl from-gray-600 to-blue-700 -mx-8 p-4  shadow-md grid grid-cols-2 gap-4 items-center">
+                        <div>
+                            <p class="text-white font-thin text-3xl leading-10">Responsive</p>
+                            <p class="text-white font-thin text-3xl leading-10">Compatible</p>
+                            <p class="text-white font-thin text-3xl leading-10">Multi-platform</p>
+                        </div>
+                        <div>
+                            <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-w-full max-h-56 mx-auto ">
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
+                        vel?</p>
+
+                </div>
+                <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
+                    <p class=" p-2 -mx-8 font-mono text-sm">Web Development</p>
+                    <h4 class="inline-block text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">UI/UX <span class="font-thin text-gray-700">Design</span></h4>
+                    {{--                    <p class=" text-lg mt-2">Give a new face to your business</p>--}}
+
+                    <div class="my-5 h-64 bg-gradient-to-bl from-gray-600 to-blue-700 -mx-8 p-4  shadow-md grid grid-cols-2 gap-4 items-center">
+                        <div>
+                            <p class="text-white font-thin text-3xl leading-10">Responsive</p>
+                            <p class="text-white font-thin text-3xl leading-10">Compatible</p>
+                            <p class="text-white font-thin text-3xl leading-10">Multi-platform</p>
+                        </div>
+                        <div>
+                            <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-w-full max-h-56 mx-auto ">
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
+                        vel?</p>
+
+                </div>
+                <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
+                    <p class=" p-2 -mx-8 font-mono text-sm">Web Development</p>
+                    <h4 class="inline-block text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">UI/UX <span class="font-thin text-gray-700">Design</span></h4>
+                    {{--                    <p class=" text-lg mt-2">Give a new face to your business</p>--}}
+
+                    <div class="my-5 h-64 bg-gradient-to-bl from-gray-600 to-blue-700 -mx-8 p-4  shadow-md grid grid-cols-2 gap-4 items-center">
+                        <div>
+                            <p class="text-white font-thin text-3xl leading-10">Responsive</p>
+                            <p class="text-white font-thin text-3xl leading-10">Compatible</p>
+                            <p class="text-white font-thin text-3xl leading-10">Multi-platform</p>
+                        </div>
+                        <div>
+                            <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-w-full max-h-56 mx-auto ">
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
+                        vel?</p>
+
+                </div>
+                <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
+                    <p class=" p-2 -mx-8 font-mono text-sm">Web Development</p>
+                    <h4 class="inline-block text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">UI/UX <span class="font-thin text-gray-700">Design</span></h4>
+                    {{--                    <p class=" text-lg mt-2">Give a new face to your business</p>--}}
+
+                    <div class="my-5 h-64 bg-gradient-to-bl from-gray-600 to-blue-700 -mx-8 p-4  shadow-md grid grid-cols-2 gap-4 items-center">
+                        <div>
+                            <p class="text-white font-thin text-3xl leading-10">Responsive</p>
+                            <p class="text-white font-thin text-3xl leading-10">Compatible</p>
+                            <p class="text-white font-thin text-3xl leading-10">Multi-platform</p>
+                        </div>
+                        <div>
+                            <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-w-full max-h-56 mx-auto ">
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
+                        vel?</p>
+
+                </div>
+                <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
+                    <p class=" p-2 -mx-8 font-mono text-sm">Web Development</p>
+                    <h4 class="inline-block text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">UI/UX <span class="font-thin text-gray-700">Design</span></h4>
+                    {{--                    <p class=" text-lg mt-2">Give a new face to your business</p>--}}
+
+                    <div class="my-5 h-64 bg-gradient-to-bl from-gray-600 to-blue-700 -mx-8 p-4  shadow-md grid grid-cols-2 gap-4 items-center">
+                        <div>
+                            <p class="text-white font-thin text-3xl leading-10">Responsive</p>
+                            <p class="text-white font-thin text-3xl leading-10">Compatible</p>
+                            <p class="text-white font-thin text-3xl leading-10">Multi-platform</p>
+                        </div>
+                        <div>
+                            <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-w-full max-h-56 mx-auto ">
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg mt-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi iusto molestias, nobis odit officiis quaerat reiciendis repellendus rerum
+                        vel?</p>
+
+                </div>
             </div>
+
         </div>
+
     </section>
 </main>
 
 
 </body>
-<script>
-    $(document).ready(function () {
-        AddEditorNumbers();
-    });
-    $(window).resize(function () {
-        AddEditorNumbers();
-    });
 
-    function AddEditorNumbers() {
-        var servicesHeight = 0;
-        if ($(window).width() > 1006) {
-            servicesHeight = $('#services_div  div').height();
-        } else {
-            servicesHeight = $('#services_div').height();
-        }
-        console.log(servicesHeight);
-        var total = servicesHeight / 32.1;
-        var html = "";
-        for (i = 1; i < total; i++) {
-            html += i + "<br>";
-        }
-
-        $("#editorNumbers").html(html);
-    }
-</script>
 </html>

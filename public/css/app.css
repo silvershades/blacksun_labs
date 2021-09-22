@@ -31875,27 +31875,6 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.custom-shape-divider-top-1631739066 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-top-1631739066 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 150px;
-}
-
-.custom-shape-divider-top-1631739066 .shape-fill {
-  fill: #FFFFFF;
-}
-
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

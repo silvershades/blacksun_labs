@@ -4,7 +4,9 @@ module.exports = {
     theme: {
         fontFamily: {
             mono: ['Fira Mono', 'monospace'],
-            serif: ['Urbanist', 'serif'],
+            serif: ['Poppins', 'serif'],
+            titulos: ['Open Sans', 'serif'],
+            textos: ['Poppins', 'serif'],
         },
         extend: {
 

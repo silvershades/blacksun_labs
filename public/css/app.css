@@ -22348,7 +22348,15 @@ video {
 }
 
 .font-serif {
-  font-family: Urbanist, serif;
+  font-family: Poppins, serif;
+}
+
+.font-titulos {
+  font-family: Open Sans, serif;
+}
+
+.font-textos {
+  font-family: Poppins, serif;
 }
 
 .text-xs {
@@ -53583,7 +53591,15 @@ video {
   }
 
   .sm\:font-serif {
-    font-family: Urbanist, serif;
+    font-family: Poppins, serif;
+  }
+
+  .sm\:font-titulos {
+    font-family: Open Sans, serif;
+  }
+
+  .sm\:font-textos {
+    font-family: Poppins, serif;
   }
 
   .sm\:text-xs {
@@ -84806,7 +84822,15 @@ video {
   }
 
   .md\:font-serif {
-    font-family: Urbanist, serif;
+    font-family: Poppins, serif;
+  }
+
+  .md\:font-titulos {
+    font-family: Open Sans, serif;
+  }
+
+  .md\:font-textos {
+    font-family: Poppins, serif;
   }
 
   .md\:text-xs {
@@ -116029,7 +116053,15 @@ video {
   }
 
   .lg\:font-serif {
-    font-family: Urbanist, serif;
+    font-family: Poppins, serif;
+  }
+
+  .lg\:font-titulos {
+    font-family: Open Sans, serif;
+  }
+
+  .lg\:font-textos {
+    font-family: Poppins, serif;
   }
 
   .lg\:text-xs {
@@ -147252,7 +147284,15 @@ video {
   }
 
   .xl\:font-serif {
-    font-family: Urbanist, serif;
+    font-family: Poppins, serif;
+  }
+
+  .xl\:font-titulos {
+    font-family: Open Sans, serif;
+  }
+
+  .xl\:font-textos {
+    font-family: Poppins, serif;
   }
 
   .xl\:text-xs {
@@ -178475,7 +178515,15 @@ video {
   }
 
   .\32xl\:font-serif {
-    font-family: Urbanist, serif;
+    font-family: Poppins, serif;
+  }
+
+  .\32xl\:font-titulos {
+    font-family: Open Sans, serif;
+  }
+
+  .\32xl\:font-textos {
+    font-family: Poppins, serif;
   }
 
   .\32xl\:text-xs {

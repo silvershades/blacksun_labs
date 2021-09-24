@@ -19324,12 +19324,9 @@ __webpack_require__.r(__webpack_exports__);
 /*!*******************************!*\
   !*** ./resources/css/app.css ***!
   \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\nError: Cannot find module '@tailwindcss/forms'\nRequire stack:\n- C:\\repos\\black_sun_labs\\blacksun_labs\\tailwind.config.js\n- C:\\repos\\black_sun_labs\\blacksun_labs\\node_modules\\tailwindcss\\lib\\index.js\n- C:\\repos\\black_sun_labs\\blacksun_labs\\webpack.mix.js\n- C:\\repos\\black_sun_labs\\blacksun_labs\\node_modules\\laravel-mix\\setup\\webpack.config.js\n- C:\\REPOS\\BLACK_SUN_LABS\\blacksun_labs\\node_modules\\webpack-cli\\lib\\webpack-cli.js\n- C:\\REPOS\\BLACK_SUN_LABS\\blacksun_labs\\node_modules\\webpack-cli\\lib\\bootstrap.js\n- C:\\REPOS\\BLACK_SUN_LABS\\blacksun_labs\\node_modules\\webpack-cli\\bin\\cli.js\n- C:\\REPOS\\BLACK_SUN_LABS\\blacksun_labs\\node_modules\\webpack\\bin\\webpack.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (C:\\REPOS\\BLACK_SUN_LABS\\blacksun_labs\\node_modules\\v8-compile-cache\\v8-compile-cache.js:159:20)\n    at Object.<anonymous> (C:\\repos\\black_sun_labs\\blacksun_labs\\tailwind.config.js:19:9)\n    at Module._compile (C:\\REPOS\\BLACK_SUN_LABS\\blacksun_labs\\node_modules\\v8-compile-cache\\v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at processResult (C:\\REPOS\\BLACK_SUN_LABS\\blacksun_labs\\node_modules\\webpack\\lib\\NormalModule.js:721:19)\n    at C:\\REPOS\\BLACK_SUN_LABS\\blacksun_labs\\node_modules\\webpack\\lib\\NormalModule.js:827:5\n    at C:\\REPOS\\BLACK_SUN_LABS\\blacksun_labs\\node_modules\\loader-runner\\lib\\LoaderRunner.js:399:11\n    at C:\\REPOS\\BLACK_SUN_LABS\\blacksun_labs\\node_modules\\loader-runner\\lib\\LoaderRunner.js:251:18\n    at context.callback (C:\\REPOS\\BLACK_SUN_LABS\\blacksun_labs\\node_modules\\loader-runner\\lib\\LoaderRunner.js:124:13)\n    at Object.loader (C:\\repos\\black_sun_labs\\blacksun_labs\\node_modules\\postcss-loader\\dist\\index.js:142:7)");
 
 /***/ }),
 
@@ -19649,7 +19646,6 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
-/******/ 			"css/app": 0,
 /******/ 			"css/styles": 0
 /******/ 		};
 /******/ 		
@@ -19700,9 +19696,9 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/styles"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/styles"], () => (__webpack_require__("./resources/sass/styles.sass")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/styles"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/styles"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/styles"], () => (__webpack_require__("./resources/sass/styles.sass")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/styles"], () => (__webpack_require__("./resources/css/app.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

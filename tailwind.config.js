@@ -5,8 +5,7 @@ module.exports = {
         fontFamily: {
             mono: ['Fira Mono', 'monospace'],
             serif: ['Poppins', 'serif'],
-            titulos: ['Open Sans', 'serif'],
-            textos: ['Poppins', 'serif'],
+
         },
         extend: {
 
@@ -16,5 +15,6 @@ module.exports = {
         linearGradients: ['hover', 'responsive'],
         extend: {},
     },
-    plugins: [],
+    plugins: [
+    ],
 }

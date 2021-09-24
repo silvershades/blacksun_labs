@@ -22351,14 +22351,6 @@ video {
   font-family: Poppins, serif;
 }
 
-.font-titulos {
-  font-family: Open Sans, serif;
-}
-
-.font-textos {
-  font-family: Poppins, serif;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -53594,14 +53586,6 @@ video {
     font-family: Poppins, serif;
   }
 
-  .sm\:font-titulos {
-    font-family: Open Sans, serif;
-  }
-
-  .sm\:font-textos {
-    font-family: Poppins, serif;
-  }
-
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -84822,14 +84806,6 @@ video {
   }
 
   .md\:font-serif {
-    font-family: Poppins, serif;
-  }
-
-  .md\:font-titulos {
-    font-family: Open Sans, serif;
-  }
-
-  .md\:font-textos {
     font-family: Poppins, serif;
   }
 
@@ -116056,14 +116032,6 @@ video {
     font-family: Poppins, serif;
   }
 
-  .lg\:font-titulos {
-    font-family: Open Sans, serif;
-  }
-
-  .lg\:font-textos {
-    font-family: Poppins, serif;
-  }
-
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -147287,14 +147255,6 @@ video {
     font-family: Poppins, serif;
   }
 
-  .xl\:font-titulos {
-    font-family: Open Sans, serif;
-  }
-
-  .xl\:font-textos {
-    font-family: Poppins, serif;
-  }
-
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -178515,14 +178475,6 @@ video {
   }
 
   .\32xl\:font-serif {
-    font-family: Poppins, serif;
-  }
-
-  .\32xl\:font-titulos {
-    font-family: Open Sans, serif;
-  }
-
-  .\32xl\:font-textos {
     font-family: Poppins, serif;
   }
 

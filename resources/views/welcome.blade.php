@@ -24,7 +24,7 @@
 <header class="min-h-screen container mx-auto relative">
     <nav class="h-20 absolute top-0 left-0 right-0 z-10 flex" id="navbar">
         <div class="flex flex-row items-center w-1/3 space-x-4">
-            <img src="{{asset("img/logo8.svg")}}" alt="Black Sun Labs logo" class="object-contain h-12">
+            <img src="{{asset("img/logo.svg")}}" alt="Black Sun Labs logo" class="object-contain h-12">
             <h1 class="text-3xl font-bold text-gray-700">Black Sun <span class="font-light">Labs</span></h1>
         </div>
         <ul class=" grid grid-cols-5 gap-4 text-center items-center h-20 text-lg w-2/3">
@@ -75,14 +75,14 @@
                     <h4 class="inline-block text-5xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">Web & App <span class="font-light text-gray-700"> Development</span></h4>
                     <p class=" text-lg mt-2">Give a new face to your online precense</p>
 
-                    <div class="my-5 h-96 bg-gradient-to-bl from-gray-600 to-blue-700 -mx-8 p-4  shadow-md grid grid-cols-2 gap-4 items-center">
+                    <div class="my-5 h-96 bg-gradient-to-bl from-gray-600 to-blue-700 -mx-8  shadow-md grid grid-cols-2 gap-4 items-center">
                         <div>
                             <p class="text-white font-light text-3xl leading-10">Responsive</p>
                             <p class="text-white font-light text-3xl leading-10">Compatible</p>
                             <p class="text-white font-light text-3xl leading-10">Multi-platform</p>
                         </div>
                         <div>
-                            <img src="{{asset("img/phone.svg")}}" alt="Black Sun Labs logo" class="object-contain max-w-full max-h-56 mx-auto ">
+                            <img src="{{asset("img/web_2.png")}}" alt="Black Sun Labs logo" class="object-cover h-96 w-full object-top ">
                         </div>
                     </div>
                     <div class="grid grid-cols-3 gap-10 text-left">
@@ -122,10 +122,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="grid grid-cols-2 gap-4 items-center justify-center mt-6 mb-2">
+                    <div class="flex items-center justify-center mt-6 mb-2 space-x-4">
                         <div>
                             <a href="#" class="inline-block flex items-center justify-center py-3 border rounded shadow transition-all duration-300
-                                hover:shadow-md bg-gradient-to-bl hover:from-gray-600 hover:to-blue-700  hover:from-white hover:to-white hover:text-white">
+                                hover:shadow-md  hover:text-white w-64 hover:bg-gray-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                                 </svg>
@@ -133,11 +133,12 @@
                             </a>
                         </div>
                         <div>
-                            <a href="#" class="inline-block flex items-center justify-center p-4 border rounded">
+                            <a href="#" class="inline-block flex items-center justify-center py-3 border rounded shadow transition-all duration-300
+                                hover:shadow-md  hover:text-white w-64 hover:bg-gray-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                                 </svg>
-                                Contact BSL
+                                Hire service
                             </a>
                         </div>
                     </div>

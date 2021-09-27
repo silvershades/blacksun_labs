@@ -64,9 +64,9 @@
     </div>
 </header>
 <div class="divider-bsl">
-    <div class="h-4 bg-gradient-to-l to-gray-700 from-blue-500 shadow-inner"></div>
-    <div class="h-4 bg-gradient-to-l from-gray-700 to-blue-500"></div>
-    <div class="h-4 bg-gradient-to-l from-gray-700 to-gray-50 "></div>
+    <div class="h-10 bg-gradient-to-l to-gray-700 from-blue-500 shadow-inner"></div>
+    <div class="h-10 bg-gradient-to-l from-gray-700 to-blue-500"></div>
+    <div class="h-10 bg-gradient-to-l from-gray-700 to-gray-50 shadow-innertop"></div>
 </div>
 
 
@@ -308,9 +308,9 @@
         </div>
     </section>
     <div class="divider-bsl">
-        <div class="h-4 bg-gradient-to-l to-gray-700 from-blue-500 shadow-inner"></div>
-        <div class="h-4 bg-gradient-to-l from-gray-700 to-blue-500"></div>
-        <div class="h-4 bg-gradient-to-l from-gray-700 to-gray-50 "></div>
+        <div class="h-10 bg-gradient-to-l to-gray-700 from-blue-500 shadow-inner"></div>
+        <div class="h-10 bg-gradient-to-l from-gray-700 to-blue-500"></div>
+        <div class="h-10 bg-gradient-to-l from-gray-700 to-gray-50 "></div>
     </div>
     <!-- BENEFTIS ------------->
     <section class="min-h-screen bg-gray-50 p-8">

@@ -14,10 +14,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,700;1,400;1,500&display=swap"
+        rel="stylesheet">
 </head>
 <body class="font-serif text-gray-700 bg-gray-50">
-<header class="min-h-screen bg-cover bg-right bg-no-repeat" id="main-header" style="background-image: url('{{asset("img/linas4.svg")}}');">
+<header class="min-h-screen bg-cover bg-right bg-no-repeat" id="main-header"
+        style="background-image: url('{{asset("img/linas4.svg")}}');">
     <nav class="absolute top-0 left-0 right-0 z-10  bg-gray-50" id="navbar">
         <div class="h-20  container mx-auto flex">
             <div class="flex flex-row items-center w-1/3 space-x-4">
@@ -35,20 +38,28 @@
     </nav>
     <div class="container mx-auto relative">
         <div class="flex min-h-screen items-center relative justify-end">
-            <div class="p-5 bg-gray-50 border rounded p-10 shadow">
+            <div class="py-10 px-14 bg-gray-50  rounded mt-20">
                 <div class="flex flex-col items-center">
-                    <h1 class="text-7xl font-bold mb-2 text-gray-700 text-transparent bg-clip-text text-center"><span class="font-light text-gray-700 block">Development of </span>
+                    <h1 class="text-7xl font-bold mb-2 text-gray-700 text-transparent bg-clip-text text-center"><span
+                            class="font-light text-gray-700 block">Development of </span>
                         Webs, Apps & Brands</h1>
-                    <p class="text-xl mt-5 italic">Let's work together to create somelightg unique for your needs.</p>
-                    <p class="max-w-3xl mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci amet aperiam at atque delectus eum exercitationem inventore, itaque necessitatibus nemo non odio placeat quibusdam rem repellat
-                        repellendus repudiandae sunt vero voluptatibus. Alias, consequatur culpa dolorem ea earum mollitia nobis possimus quae vero voluptatum. Aut doloremque ea error explicabo quidem.</p>
+                    <p class="text-xl mt-5 text-gray-500">Let's work together to create something unique for your
+                        needs.</p>
+                    <p class="max-w-4xl mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci amet
+                        aperiam at atque delectus eum exercitationem inventore, itaque necessitatibus nemo non odio
+                        placeat quibusdam rem repellat
+                        repellendus repudiandae sunt vero voluptatibus. Alias, consequatur culpa dolorem ea earum
+                        mollitia nobis possimus quae vero voluptatum. Aut doloremque ea error explicabo quidem.</p>
                     <div>
-                        <a href="#" class="inline-block p-3 flex items-center justify-center py-3 border rounded shadow transition-all duration-300 bg-white
-                                hover:shadow-md  hover:text-white hover:bg-gray-700 mt-8">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-                            </svg>
-                            Write to us
+
+                        <a href="#" class="bg-blue-400 shadow text-white px-5 py-1 rounded flex items-center space-x-4 mt-5 hover:from-white hover:text-gray-700 transition-all duration-200 group"><span>Send us a message</span>
+                            <span class="bg-white  p-1 text-gray-600 flex items-center justify-center group-hover:bg-white group-hover:text-gray-600 duration-200
+                                rounded-full group-hover:animate-spin"><svg
+                                    xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+</svg></span>
                         </a>
                     </div>
                 </div>
@@ -68,46 +79,63 @@
     <!-- SERVICES ------------->
     <section class="min-h-screen bg-gray-50 p-8">
         <div class="container mx-auto ">
-            <h3 class="inline-block text-6xl font-bold leading-tight"><span class="font-light text-gray-700">Our</span> Services</h3>
-            <p class="text-gray-500 text-lg">We offer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, vero.</p>
+            <h3 class="inline-block text-6xl font-bold leading-tight"><span class="font-light text-gray-700">Our</span>
+                Services</h3>
+            <p class="text-gray-500 text-lg">We offer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
+                vero.</p>
             <div class="grid grid-cols-1 gap-10 mt-10 text-center">
                 <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
-                    <h4 class="inline-block text-5xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold leading-normal">Web & App <span class="font-light text-gray-700"> Development</span></h4>
+                    <h4 class="inline-block text-5xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold leading-normal">
+                        Web & App <span class="font-light text-gray-700"> Development</span></h4>
                     <p class=" text-lg mt-2">Give a new face to your online precense</p>
 
-                    <div class="my-5 h-96 bg-gradient-to-bl from-gray-700 to-blue-500 -mx-8  shadow-md grid grid-cols-2 gap-4 items-center">
+                    <div
+                        class="my-5 h-96 bg-gradient-to-bl from-gray-700 to-blue-500 -mx-8  shadow-md grid grid-cols-2 gap-4 items-center">
                         <div>
                             <p class="text-white font-light text-3xl leading-10">Responsive</p>
                             <p class="text-white font-light text-3xl leading-10">Compatible</p>
                             <p class="text-white font-light text-3xl leading-10">Multi-platform</p>
                         </div>
                         <div>
-                            <img src="{{asset("img/web_2.png")}}" alt="Black Sun Labs logo" class="object-cover h-96 w-full object-top ">
+                            <img src="{{asset("img/web_2.png")}}" alt="Black Sun Labs logo"
+                                 class="object-cover h-96 w-full object-top ">
                         </div>
                     </div>
 
                     <div class="grid grid-cols-3 gap-10 text-left">
                         <div class="col-span-2 grid grid-cols-2 gap-10 ">
                             <div class="col-span-2">
-                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">Full development <span class="font-normal">experience</span></p>
-                                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium delectus libero maxime porro voluptates! Aspernatur deserunt dolor, hic itaque laboriosam libero natus
-                                    repellat? A alias consequatur eius saepe temporibus! Alias at ducimus harum nam odio officiis, sapiente totam. Assumenda blanditiis corporis cupiditate est excepturi iusto necessitatibus nisi
+                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                    Full development <span class="font-normal">experience</span></p>
+                                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Accusantium delectus libero maxime porro voluptates! Aspernatur deserunt dolor, hic
+                                    itaque laboriosam libero natus
+                                    repellat? A alias consequatur eius saepe temporibus! Alias at ducimus harum nam odio
+                                    officiis, sapiente totam. Assumenda blanditiis corporis cupiditate est excepturi
+                                    iusto necessitatibus nisi
                                     quas sed veniam.</p>
                             </div>
                             <div>
-                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">UI & UX <span class="font-normal">intelligent design</span></p>
-                                <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
+                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                    UI & UX <span class="font-normal">intelligent design</span></p>
+                                <p class="text-gray-700">We update our knowledge everyday. That is why we offer our
+                                    services along side the best and newest technologies.</p>
                             </div>
                             <div>
-                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">SEO <span class="font-normal">optimization</span></p>
-                                <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
+                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                    SEO <span class="font-normal">optimization</span></p>
+                                <p class="text-gray-700">We update our knowledge everyday. That is why we offer our
+                                    services along side the best and newest technologies.</p>
                             </div>
                         </div>
 
                         <div>
-                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">Technologies <span class="font-normal">at hand</span></p>
-                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
-                            <div class="grid grid-cols-4 gap-3 text-center items-center justify-center my-5 relative p-8">
+                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                Technologies <span class="font-normal">at hand</span></p>
+                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services
+                                along side the best and newest technologies.</p>
+                            <div
+                                class="grid grid-cols-4 gap-3 text-center items-center justify-center my-5 relative p-8">
                                 <img class="w-12 mx-auto" src="{{asset("img/html.png")}}" alt="">
                                 <img class="w-12 mx-auto" src="{{asset("img/css.png")}}" alt="">
                                 <img class="w-12 mx-auto" src="{{asset("img/js.png")}}" alt="">
@@ -127,8 +155,10 @@
                         <div>
                             <a href="#" class="inline-block flex items-center justify-center py-3 border rounded shadow transition-all duration-300
                                 hover:shadow-md  hover:text-white w-64 hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M9 5l7 7-7 7"/>
                                 </svg>
                                 View more
                             </a>
@@ -136,8 +166,10 @@
                         <div>
                             <a href="#" class="inline-block flex items-center justify-center py-3 border rounded shadow transition-all duration-300
                                 hover:shadow-md  hover:text-white w-64 hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M9 5l7 7-7 7"/>
                                 </svg>
                                 Hire service
                             </a>
@@ -149,41 +181,56 @@
             </div>
             <div class="grid grid-cols-1 gap-10 mt-10 text-center">
                 <div class="bg-white border shadow-sm rounded-lg p-8 overflow-hidden">
-                    <h4 class="inline-block text-5xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold leading-normal">Branding <span class="font-light text-gray-700"> Development</span></h4>
+                    <h4 class="inline-block text-5xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold leading-normal">
+                        Branding <span class="font-light text-gray-700"> Development</span></h4>
                     <p class=" text-lg mt-2">Give a new face to your online precense</p>
 
-                    <div class="my-5 h-96 bg-gradient-to-bl from-gray-700 to-blue-500 -mx-8  shadow-md grid grid-cols-2 gap-4 items-center">
+                    <div
+                        class="my-5 h-96 bg-gradient-to-bl from-gray-700 to-blue-500 -mx-8  shadow-md grid grid-cols-2 gap-4 items-center">
                         <div>
                             <p class="text-white font-light text-3xl leading-10">Responsive</p>
                             <p class="text-white font-light text-3xl leading-10">Compatible</p>
                             <p class="text-white font-light text-3xl leading-10">Multi-platform</p>
                         </div>
                         <div>
-                            <img src="{{asset("img/web_2.png")}}" alt="Black Sun Labs logo" class="object-cover h-96 w-full object-top ">
+                            <img src="{{asset("img/web_2.png")}}" alt="Black Sun Labs logo"
+                                 class="object-cover h-96 w-full object-top ">
                         </div>
                     </div>
                     <div class="grid grid-cols-3 gap-10 text-left">
                         <div class="col-span-2 grid grid-cols-2 gap-10 ">
                             <div class="col-span-2">
-                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">Full development <span class="font-normal">experience</span></p>
-                                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium delectus libero maxime porro voluptates! Aspernatur deserunt dolor, hic itaque laboriosam libero natus
-                                    repellat? A alias consequatur eius saepe temporibus! Alias at ducimus harum nam odio officiis, sapiente totam. Assumenda blanditiis corporis cupiditate est excepturi iusto necessitatibus nisi
+                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                    Full development <span class="font-normal">experience</span></p>
+                                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Accusantium delectus libero maxime porro voluptates! Aspernatur deserunt dolor, hic
+                                    itaque laboriosam libero natus
+                                    repellat? A alias consequatur eius saepe temporibus! Alias at ducimus harum nam odio
+                                    officiis, sapiente totam. Assumenda blanditiis corporis cupiditate est excepturi
+                                    iusto necessitatibus nisi
                                     quas sed veniam.</p>
                             </div>
                             <div>
-                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">UI & UX <span class="font-normal">intelligent design</span></p>
-                                <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
+                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                    UI & UX <span class="font-normal">intelligent design</span></p>
+                                <p class="text-gray-700">We update our knowledge everyday. That is why we offer our
+                                    services along side the best and newest technologies.</p>
                             </div>
                             <div>
-                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">SEO <span class="font-normal">optimization</span></p>
-                                <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
+                                <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                    SEO <span class="font-normal">optimization</span></p>
+                                <p class="text-gray-700">We update our knowledge everyday. That is why we offer our
+                                    services along side the best and newest technologies.</p>
                             </div>
                         </div>
 
                         <div>
-                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">Technologies <span class="font-normal">at hand</span></p>
-                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
-                            <div class="grid grid-cols-4 gap-3 text-center items-center justify-center my-5 relative p-8">
+                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                Technologies <span class="font-normal">at hand</span></p>
+                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services
+                                along side the best and newest technologies.</p>
+                            <div
+                                class="grid grid-cols-4 gap-3 text-center items-center justify-center my-5 relative p-8">
                                 <img class="w-12 mx-auto" src="{{asset("img/html.png")}}" alt="">
                                 <img class="w-12 mx-auto" src="{{asset("img/css.png")}}" alt="">
                                 <img class="w-12 mx-auto" src="{{asset("img/js.png")}}" alt="">
@@ -203,8 +250,10 @@
                         <div>
                             <a href="#" class="inline-block flex items-center justify-center py-3 border rounded shadow transition-all duration-300
                                 hover:shadow-md  hover:text-white w-64 hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M9 5l7 7-7 7"/>
                                 </svg>
                                 View more
                             </a>
@@ -212,8 +261,10 @@
                         <div>
                             <a href="#" class="inline-block flex items-center justify-center py-3 border rounded shadow transition-all duration-300
                                 hover:shadow-md  hover:text-white w-64 hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M9 5l7 7-7 7"/>
                                 </svg>
                                 Hire service
                             </a>
@@ -231,47 +282,64 @@
     <!-- BENEFTIS ------------->
     <section class="min-h-screen bg-gray-50 p-8">
         <div class="container mx-auto ">
-            <h3 class="inline-block text-6xl font-bold leading-tight"><span class="font-light text-gray-700">Our </span> Benefits</h3>
-            <p class="text-gray-500 text-lg">We offer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, vero.</p>
+            <h3 class="inline-block text-6xl font-bold leading-tight"><span class="font-light text-gray-700">Our </span>
+                Benefits</h3>
+            <p class="text-gray-500 text-lg">We offer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
+                vero.</p>
 
             <div class="grid grid-cols-3 gap-10 my-10">
                 <div class="col-span-2 row-span-2 border shadow rounded bg-white p-8">
                     <div class="flex items-center justify-center space-x-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                   d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                         </svg>
-                        <h4 class="text-center text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">BSL <span class="font-light text-gray-700"> Control Panel</span></h4>
+                        <h4 class="text-center text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">
+                            BSL <span class="font-light text-gray-700"> Control Panel</span></h4>
                     </div>
                     <p class="text-lg mt-2 text-center">Manage all aspects of your projects with us</p>
-                    <p class="mt-10">We offer you access to our control panel where you can administrate all aspects of your projects with us. Deadlines, bugs, reports, maintenance and more.</p>
+                    <p class="mt-10">We offer you access to our control panel where you can administrate all aspects of
+                        your projects with us. Deadlines, bugs, reports, maintenance and more.</p>
                     <div class="grid grid-cols-2 gap-10 mt-5">
                         <div>
-                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">Deadlines <span class="font-normal">viewer</span></p>
-                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
+                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                Deadlines <span class="font-normal">viewer</span></p>
+                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services
+                                along side the best and newest technologies.</p>
                         </div>
                         <div>
-                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">Bug & Error <span class="font-normal">report system</span></p>
-                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
+                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                Bug & Error <span class="font-normal">report system</span></p>
+                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services
+                                along side the best and newest technologies.</p>
                         </div>
                         <div>
-                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">Payments <span class="font-normal">timeline</span></p>
-                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
+                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                Payments <span class="font-normal">timeline</span></p>
+                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services
+                                along side the best and newest technologies.</p>
                         </div>
                         <div>
-                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">Backups <span class="font-normal">managment</span></p>
-                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
+                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                Backups <span class="font-normal">managment</span></p>
+                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services
+                                along side the best and newest technologies.</p>
                         </div>
                         <div class="col-span-2">
-                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">Client <span class="font-normal">priority changes</span></p>
-                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
+                            <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                                Client <span class="font-normal">priority changes</span></p>
+                            <p class="text-gray-700">We update our knowledge everyday. That is why we offer our services
+                                along side the best and newest technologies.</p>
                         </div>
                         <div class="col-span-2">
                             <div>
                                 <a href="#" class="inline-block flex items-center justify-center py-3 border rounded shadow transition-all duration-300
                                 hover:shadow-md  hover:text-white w-64 hover:bg-gray-700 mx-auto">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none"
+                                         viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M9 5l7 7-7 7"/>
                                     </svg>
                                     View demo
                                 </a>
@@ -280,11 +348,13 @@
                     </div>
                 </div>
                 <div class="border shadow rounded bg-white p-8">
-                    <h4 class="text-center text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">BSL <span class="font-light text-gray-700"> Hosting management</span></h4>
+                    <h4 class="text-center text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">
+                        BSL <span class="font-light text-gray-700"> Hosting management</span></h4>
 
                 </div>
                 <div class="border shadow rounded bg-white p-8">
-                    <h4 class="text-center text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">BSL <span class="font-light text-gray-700"> Periodic maintenance</span></h4>
+                    <h4 class="text-center text-4xl bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text font-bold">
+                        BSL <span class="font-light text-gray-700"> Periodic maintenance</span></h4>
 
                 </div>
             </div>
@@ -296,11 +366,14 @@
     <!-- CONTACT ------------->
     <section class="min-h-screen bg-gray-50 p-8">
         <div class="container mx-auto ">
-            <h3 class="inline-block text-6xl font-bold leading-tight">Contact <span class="font-light text-gray-700">Us </span></h3>
-            <p class="text-gray-500 text-lg">We offer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, vero.</p>
+            <h3 class="inline-block text-6xl font-bold leading-tight">Contact <span
+                    class="font-light text-gray-700">Us </span></h3>
+            <p class="text-gray-500 text-lg">We offer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
+                vero.</p>
             <form method="post" action="" class="my-10 grid grid-cols-3 gap-10">
                 <div class="col-span-3">
-                    <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">Required <span class="font-normal">fields</span></p>
+                    <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                        Required <span class="font-normal">fields</span></p>
                 </div>
                 <div>
                     <div>
@@ -314,11 +387,13 @@
                 </div>
                 <div class="col-span-2">
                     <label for="" class="block text-lg mb-2">Tell us what you need</label>
-                    <textarea name="" id="" cols="30" rows="5" class="resize-none px-3 py-3 bg-white border text-lg rounded w-full"></textarea>
+                    <textarea name="" id="" cols="30" rows="5"
+                              class="resize-none px-3 py-3 bg-white border text-lg rounded w-full"></textarea>
                     <p class="text-gray-500">The more details the better.</p>
                 </div>
                 <div class="col-span-3">
-                    <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">Optional <span class="font-normal">fields</span></p>
+                    <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
+                        Optional <span class="font-normal">fields</span></p>
                 </div>
                 <div>
                     <label for="" class="block text-lg mb-2">Have we worked together already?</label>
@@ -335,7 +410,8 @@
                 <div class="col-start-2">
                     <a href="#" class="inline-block flex items-center justify-center py-3 border rounded shadow transition-all duration-300
                                 hover:shadow-md  hover:text-white w-64 hover:bg-gray-700 mx-auto">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block" fill="none"
+                             viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                         </svg>
                         Send message

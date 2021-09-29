@@ -7,3 +7,7 @@
         height: 600px;
     }
 }
+
+section{
+    overflow:hidden;
+}

@@ -16,16 +16,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
 </head>
-<body class="font-serif text-gray-700 bg-gray-50">
+<body class="font-serif text-gray-700 bg-gray-50 overflow-x-hidden">
 <header class="min-h-screen bg-cover bg-right bg-no-repeat" id="main-header"
         style="background-image: url('{{asset("img/lineas2.svg")}}');">
-    <nav class="absolute top-0 left-0 right-0 z-10  bg-gray-50" id="navbar">
+    <nav class="absolute top-0 left-0 right-0 z-10  bg-gray-50 px-8" id="navbar">
         <div class="h-20  container mx-auto flex">
-            <div class="flex flex-row items-center w-1/3 space-x-4">
+            <div class="flex flex-row items-center lg:w-1/3 w-2/3 space-x-4">
                 <img src="{{asset("img/logo2.svg")}}" alt="Black Sun Labs logo" class="object-contain h-12">
-                <h1 class="text-3xl font-bold text-gray-700">Black Sun <span class="font-light">Labs</span></h1>
+                <h1 class="text-xl lg:text-3xl font-bold text-gray-700">Black Sun <span class="font-light">Labs</span></h1>
             </div>
-            <ul class=" grid grid-cols-5 gap-4 text-center items-center h-20 text-lg w-2/3">
+            <ul class="hidden lg:grid grid-cols-5 gap-4 text-center items-center h-20 lg:text-lg w-2/3">
                 <li class=""><a href="#">About us</a></li>
                 <li class=""><a href="#">Services</a></li>
                 <li class=""><a href="#">Portfolio</a></li>
@@ -34,20 +34,20 @@
             </ul>
         </div>
     </nav>
-    <div class="container mx-auto relative">
+    <div class="container mx-auto relative p-8">
         <div class="flex min-h-screen items-center relative justify-end">
             <div class="rounded-3xl bg-indigo-400 transform -rotate-1 p-2  h-full shadow-lg mt-20">
                 <div class="rounded-3xl bg-bsl transform rotate-2 p-3  h-full shadow">
-                    <div class="py-10 px-14 bg-white rounded-3xl transform -rotate-1  h-full shadow">
+                    <div class="py-10 px-4 lg:px-14 bg-white rounded-3xl transform -rotate-1  h-full shadow">
                         <div class="flex flex-col items-center">
                             <img src="{{asset("img/logo2.svg")}}" alt="Black Sun Labs logo" class="object-contain h-32 mb-3">
-                            <h1 class="text-7xl font-bold mb-2 text-gray-700 text-transparent bg-clip-text text-center text-gray-700">
+                            <h1 class="text-4xl lg:text-7xl font-bold mb-2 text-gray-700 text-transparent bg-clip-text text-center text-gray-700">
                                 <span class="font-light text-gray-700 block">Development of </span>
                                 Webs <span class="text-bsl"> , </span>
                                 Apps <span class="text-bsl"> & </span>
                                 Brands
                             </h1>
-                            <p class="text-lg mt-5 text-gray-700">Let's work together to create something unique for your
+                            <p class="text-lg mt-5 text-gray-700 text-center">Let's work together to create something unique for your
                                 needs.</p>
 
                             <div class="mt-10">
@@ -74,23 +74,23 @@
     <!-- SERVICES ------------->
     <section class="mb-20 p-8">
         <div class="container mx-auto min-h-screen pt-10">
-            <h3 class="inline-block text-6xl font-bold leading-tight"><span class="font-light text-gray-700">Our</span>
-                Services</h3>
+            <h2 class="inline-block text-4xl lg:text-6xl font-bold leading-tight"><span class="font-light text-gray-700">Our</span>
+                Services</h2>
             <p class="text-gray-500 text-lg">We offer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
                 vero.</p>
-            <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-10 mt-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
                 <div class="bg-indigo-200 rounded-3xl transform rotate-2 h-full">
                     <div class="bg-bsl mx-1 my-3 rounded-3xl transform -rotate-3 p-3 shadow h-full -translate-y-4">
                         <div class="bg-white rounded-3xl p-8 shadow transform rotate-1  h-full">
-                            <h4 class="text-5xl font-bold text-center mb-3">Web <span class="text-bsl">&</span> App <span class="font-light text-gray-700"> Development</span></h4>
+                            <h3 class="text-3xl lg:text-5xl font-bold text-center mb-3">Web <span class="text-bsl">&</span> App <span class="font-light text-gray-700"> Development</span></h3>
                             <p class="text-center">Let´s give a new face to your online presence</p>
                             <div class="mb-10">
                                 <img src="{{asset("img/web_2.png")}}" alt="Black Sun Labs logo"
                                      class="object-cover my-5 h-44 w-full object-top rounded-xl shadow">
                             </div>
-                            <div class="space-y-5">
-                                <div class="flex space-x-4">
-                                    <div class="w-64 flex items-center justify-center">
+                            <div class="space-y-10">
+                                <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                    <div class="lg:w-64 flex items-center justify-center">
                                         <img src="{{asset("img/services/responsive.svg")}}" alt="" class="object-contain w-16 mx-auto">
                                     </div>
                                     <div class="w-auto">
@@ -100,8 +100,8 @@
                                             similique.</p>
                                     </div>
                                 </div>
-                                <div class="flex space-x-4">
-                                    <div class="w-64 flex items-center justify-center">
+                                <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                    <div class="lg:w-64 flex items-center justify-center">
                                         <img src="{{asset("img/services/ui.svg")}}" alt="" class="object-contain w-16 mx-auto">
                                     </div>
                                     <div class="w-auto">
@@ -112,8 +112,8 @@
                                             similique.</p>
                                     </div>
                                 </div>
-                                <div class="flex space-x-4">
-                                    <div class="w-64 flex items-center justify-center">
+                                <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                    <div class="lg:w-64 flex items-center justify-center">
                                         <img src="{{asset("img/services/seo.svg")}}" alt="" class="object-contain w-16 mx-auto">
                                     </div>
                                     <div class="w-auto">
@@ -123,8 +123,8 @@
                                             similique.</p>
                                     </div>
                                 </div>
-                                <div class="flex space-x-4">
-                                    <div class="w-64 flex items-center justify-center">
+                                <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                    <div class="lg:w-64 flex items-center justify-center">
                                         <img src="{{asset("img/services/technos.svg")}}" alt="" class="object-contain w-16 mx-auto">
                                     </div>
                                     <div class="w-auto">
@@ -142,16 +142,15 @@
                 <div class="bg-indigo-200 rounded-3xl transform rotate-2 h-full">
                     <div class="bg-bsl mx-1 my-3 rounded-3xl transform -rotate-3 p-3 shadow h-full -translate-y-4">
                         <div class="bg-white rounded-3xl p-8 shadow transform rotate-1  h-full">
-                            <h4 class="text-center font-bold text-5xl mb-2 text-gray-700 leading-tight">Brand <span class="font-normal">Design</span></h4>
-
+                            <h3 class="text-3xl lg:text-5xl font-bold text-center mb-3">Web <span class="text-bsl">&</span> App <span class="font-light text-gray-700"> Development</span></h3>
                             <p class="text-center">Let´s give a new face to your online presence</p>
                             <div class="mb-10">
                                 <img src="{{asset("img/web_2.png")}}" alt="Black Sun Labs logo"
                                      class="object-cover my-5 h-44 w-full object-top rounded-xl shadow">
                             </div>
-                            <div class="space-y-5">
-                                <div class="flex space-x-4">
-                                    <div class="w-64 flex items-center justify-center">
+                            <div class="space-y-10">
+                                <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                    <div class="lg:w-64 flex items-center justify-center">
                                         <img src="{{asset("img/services/responsive.svg")}}" alt="" class="object-contain w-16 mx-auto">
                                     </div>
                                     <div class="w-auto">
@@ -161,8 +160,8 @@
                                             similique.</p>
                                     </div>
                                 </div>
-                                <div class="flex space-x-4">
-                                    <div class="w-64 flex items-center justify-center">
+                                <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                    <div class="lg:w-64 flex items-center justify-center">
                                         <img src="{{asset("img/services/ui.svg")}}" alt="" class="object-contain w-16 mx-auto">
                                     </div>
                                     <div class="w-auto">
@@ -173,8 +172,8 @@
                                             similique.</p>
                                     </div>
                                 </div>
-                                <div class="flex space-x-4">
-                                    <div class="w-64 flex items-center justify-center">
+                                <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                    <div class="lg:w-64 flex items-center justify-center">
                                         <img src="{{asset("img/services/seo.svg")}}" alt="" class="object-contain w-16 mx-auto">
                                     </div>
                                     <div class="w-auto">
@@ -184,8 +183,8 @@
                                             similique.</p>
                                     </div>
                                 </div>
-                                <div class="flex space-x-4">
-                                    <div class="w-64 flex items-center justify-center">
+                                <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                    <div class="lg:w-64 flex items-center justify-center">
                                         <img src="{{asset("img/services/technos.svg")}}" alt="" class="object-contain w-16 mx-auto">
                                     </div>
                                     <div class="w-auto">
@@ -200,6 +199,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -211,12 +211,12 @@
 <!-- BENEFTIS ------------->
     <section class="min-h-screen bg-gray-50 p-8">
         <div class="container mx-auto ">
-            <h3 class="inline-block text-6xl font-bold leading-tight"><span class="font-light text-gray-700">Our </span>
-                Benefits</h3>
+            <h2 class="inline-block text-6xl font-bold leading-tight"><span class="font-light text-gray-700">Our </span>
+                Benefits</h2>
             <p class="text-gray-500 text-lg">We offer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
                 vero.</p>
 
-            <div class="grid grid-cols-3 gap-10 my-10">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 my-10">
                 <div class="col-span-2 row-span-2 bg-indigo-200 rounded-3xl transform rotate-2 h-full">
                     <div class="bg-bsl mx-1 my-3 rounded-3xl transform -rotate-3 p-3 shadow h-full -translate-y-4">
                         <div class="bg-white rounded-3xl p-8 shadow transform rotate-1  h-full">
@@ -226,7 +226,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                           d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                                 </svg>
-                                <h4 class="text-center text-4xl font-bold">BSL <span class="font-light text-gray-700"> User Panel</span></h4>
+                                <h3 class="text-center text-4xl font-bold">BSL <span class="font-light text-gray-700"> User Panel</span></h3>
                             </div>
                             <p class="text-lg mt-2 text-center">Manage all aspects of your projects with us</p>
                             <p class="mt-10">We offer you access to our control panel where you can administrate all aspects of your projects with us. Deadlines, bugs, reports, maintenance and more.</p>
@@ -260,41 +260,40 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-indigo-200 rounded-3xl transform rotate-2 h-full">
+                <div class="col-span-2 bg-indigo-200 rounded-3xl transform rotate-2 h-full">
                     <div class="bg-bsl mx-1 my-3 rounded-3xl transform -rotate-3 p-3 shadow h-full -translate-y-4">
                         <div class="bg-white rounded-3xl px-4 py-8 shadow transform rotate-1  h-full">
-                            <h4 class="text-center text-3xl font-bold">
-                                BSL <span class="font-light text-gray-700"> Management & maintenance</span></h4>
+                            <h3 class="text-center text-3xl font-bold">
+                                BSL <span class="font-light text-gray-700"> Management & maintenance</span></h3>
 
                         </div>
                     </div>
                 </div>
-                <div class=" bg-indigo-200 rounded-3xl transform rotate-2 h-full">
+                <div class="col-span-2 bg-indigo-200 rounded-3xl transform rotate-2 h-full">
                     <div class="bg-bsl mx-1 my-3 rounded-3xl transform -rotate-3 p-3 shadow h-full -translate-y-4">
                         <div class="bg-white rounded-3xl px-4 py-8 shadow transform rotate-1  h-full">
-                            <h4 class="text-center text-3xl font-bold">
-                                BSL <span class="font-light text-gray-700"> Periodic maintenance</span></h4>
+                            <h3 class="text-center text-3xl font-bold">
+                                BSL <span class="font-light text-gray-700"> Periodic maintenance</span></h3>
 
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
     <!-- WHO ARE WE ------------->
-    <section class="min-h-screen bg-bsl p-8 shadow-inner flex items-center mb-10">
+    <section class="min-h-screen bg-bsl p-8 shadow-inner flex items-center mb-10 relative overflow-hidden">
         <div class="container mx-auto">
             <div>
-                <img src="{{asset("img/logo.svg")}}" alt="" class="absolute inset-0">
+                <img src="{{asset("img/logo2.svg")}}" alt="" class="absolute lg:inset-0 h-full opacity-20 top:0">
             </div>
-            <div class="grid grid-cols-2 items-center gap-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
                 <div class="flex items-center justify-center p-8">
                     <img src="{{asset("img/team.svg")}}" alt="Black Sun Labs logo" class="object-contain">
                 </div>
                 <div class="flex flex-col items-center  justify-center h-full p-8">
-                    <h3 class="text-6xl text-gray-50 text-left block font-bold mb-10"><span class="font-normal">Who are</span> we</h3>
+                    <h2 class="text-6xl text-gray-50 text-left block font-bold mb-10"><span class="font-normal">Who are</span> we</h2>
                     <p class="text-xl text-gray-50"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, aperiam architecto assumenda consectetur deleniti deserunt dicta dolorum et ex excepturi expedita
                         inventore ipsa itaque molestias
                         mollitia nam necessitatibus numquam officiis placeat quas, quasi quisquam recusandae sequi, sunt totam vero voluptatem! Accusantium ad aliquam amet animi aspernatur aut autem commodi cum debitis dicta
@@ -312,12 +311,12 @@
     <!-- CONTACT ------------->
     <section class="min-h-screen bg-gray-50 p-8" id="contact">
         <div class="container mx-auto ">
-            <h3 class="inline-block text-6xl font-bold leading-tight">Contact <span
-                    class="font-light text-gray-700">Us </span></h3>
+            <h2 class="inline-block text-6xl font-bold leading-tight">Contact <span
+                    class="font-light text-gray-700">Us </span></h2>
             <p class="text-gray-500 text-lg">We offer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
                 vero.</p>
-            <form method="post" action="" class="my-10 grid grid-cols-3 gap-10">
-                <div class="col-span-3">
+            <form method="post" action="" class="my-10 grid grid-cols-1 gap-10">
+                <div class="lg:col-span-3">
                     <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
                         Required <span class="font-normal">fields</span></p>
                 </div>
@@ -331,13 +330,13 @@
                         <input type="text" class="px-3 py-3 bg-white text-lg border rounded w-full">
                     </div>
                 </div>
-                <div class="col-span-2">
+                <div class="lg:col-span-2">
                     <label for="" class="block text-lg mb-2">Tell us what you need</label>
                     <textarea name="" id="" cols="30" rows="5"
                               class="resize-none px-3 py-3 bg-white border text-lg rounded w-full"></textarea>
                     <p class="text-gray-500">The more details the better.</p>
                 </div>
-                <div class="col-span-3">
+                <div class="lg:col-span-3">
                     <p class="text-3xl mb-3 font-bold bg-gradient-to-bl from-gray-600 to-gray-700 text-transparent bg-clip-text">
                         Optional <span class="font-normal">fields</span></p>
                 </div>
@@ -353,8 +352,8 @@
                     <label for="" class="block text-lg mb-2">Where do you know us from?</label>
                     <input type="text" class="px-3 py-3 bg-white text-lg border rounded w-full">
                 </div>
-                <div class="col-start-2">
-                    <div class="col-span-2 text-center">
+                <div class="lg:col-start-2">
+                    <div class="text-center">
                         <a href="" class="px-4 py-2 bg-bsl text-white rounded-full  hover:bg-indigo-400 transition shadow inline-block">
                             Send message
                         </a>

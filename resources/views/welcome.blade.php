@@ -286,26 +286,31 @@
     <!-- WHO ARE WE ------------->
     <section class="min-h-screen bg-bsl p-8 shadow-inner flex items-center mb-10">
         <div class="container mx-auto">
+            <div>
+                <img src="{{asset("img/logo.svg")}}" alt="" class="absolute inset-0">
+            </div>
             <div class="grid grid-cols-2 items-center gap-10">
                 <div class="flex items-center justify-center p-8">
                     <img src="{{asset("img/team.svg")}}" alt="Black Sun Labs logo" class="object-contain">
                 </div>
                 <div class="flex flex-col items-center  justify-center h-full p-8">
                     <h3 class="text-6xl text-gray-50 text-left block font-bold mb-10"><span class="font-normal">Who are</span> we</h3>
-                    <p class="text-xl text-gray-50 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, aperiam architecto assumenda consectetur deleniti deserunt dicta dolorum et ex excepturi expedita
+                    <p class="text-xl text-gray-50"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, aperiam architecto assumenda consectetur deleniti deserunt dicta dolorum et ex excepturi expedita
                         inventore ipsa itaque molestias
                         mollitia nam necessitatibus numquam officiis placeat quas, quasi quisquam recusandae sequi, sunt totam vero voluptatem! Accusantium ad aliquam amet animi aspernatur aut autem commodi cum debitis dicta
                         dolorem
                         dolorum eos exercitationem, fugiat, fugit illum inventore iusto libero numquam quaerat quia quo reprehenderit sequi sint, ullam. Accusantium amet aperiam cumque doloremque est excepturi impedit ipsa iure,
                         nihil
                         nisi nulla veniam? Ab, harum hic praesentium rem saepe sint velit. Aut dolore officiis optio quae, unde velit!</p>
+
+                    <a href="#contact" class="bg-white px-4 py-2 rounded-full mt-10 font-bold hover:bg-indigo-200 transition "><span class="font-normal">Contact </span>BSL <span class="font-normal">Team</span></a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CONTACT ------------->
-    <section class="min-h-screen bg-gray-50 p-8">
+    <section class="min-h-screen bg-gray-50 p-8" id="contact">
         <div class="container mx-auto ">
             <h3 class="inline-block text-6xl font-bold leading-tight">Contact <span
                     class="font-light text-gray-700">Us </span></h3>

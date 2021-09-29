@@ -7,11 +7,11 @@ module.exports = {
             serif: ['Poppins', 'serif'],
 
         },
-        backgroundPosition: {
-            rightbsl: '50%',
-        },
-        extend: {
 
+        extend: {
+            colors: {
+                bsl:"#4A59FF"
+            },
         },
     },
     variants: {
@@ -19,6 +19,5 @@ module.exports = {
             animation: ['group-hover'],
         },
     },
-    plugins: [
-    ],
+    plugins: [],
 }

@@ -36,9 +36,9 @@
     </nav>
     <div class="container mx-auto relative p-8">
         <div class="flex min-h-screen items-center relative justify-end">
-            <div class="rounded-3xl bg-indigo-400 transform -rotate-1 p-2  h-full shadow-lg mt-20">
-                <div class="rounded-3xl bg-bsl transform rotate-2 p-3  h-full shadow">
-                    <div class="py-10 px-4 lg:px-14 bg-white rounded-3xl transform -rotate-1  h-full shadow">
+            <div class="rounded-3xl bg-indigo-400 transform -rotate-1   h-full shadow-lg mt-20">
+                <div class="rounded-3xl bg-bsl transform rotate-2 p-1  h-full shadow">
+                    <div class="py-10 px-4 lg:px-14 bg-white rounded-3xl transform -rotate-1 h-full shadow">
                         <div class="flex flex-col items-center">
                             <img src="{{asset("img/logo2.svg")}}" alt="Black Sun Labs logo" class="object-contain h-32 mb-3">
                             <h1 class="text-4xl lg:text-7xl font-bold mb-2 text-gray-700 text-transparent bg-clip-text text-center text-gray-700">
@@ -79,8 +79,8 @@
             <p class="text-gray-500 text-lg">We offer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
                 vero.</p>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
-                <div class="bg-indigo-200 rounded-3xl transform rotate-2 h-full">
-                    <div class="bg-bsl mx-1 my-3 rounded-3xl transform -rotate-3 p-3 shadow h-full -translate-y-4">
+                <div class="bg-indigo-200 rounded-3xl transform rotate-1 h-full">
+                    <div class="bg-bsl rounded-3xl transform -rotate-2 p-1 shadow h-full">
                         <div class="bg-white rounded-3xl p-8 shadow transform rotate-1  h-full">
                             <h3 class="text-3xl lg:text-5xl font-bold text-center mb-3">Web <span class="text-bsl">&</span> App <span class="font-light text-gray-700"> Development</span></h3>
                             <p class="text-center">Let´s give a new face to your online presence</p>
@@ -139,8 +139,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-indigo-200 rounded-3xl transform rotate-2 h-full">
-                    <div class="bg-bsl mx-1 my-3 rounded-3xl transform -rotate-3 p-3 shadow h-full -translate-y-4">
+                <div class="bg-indigo-200 rounded-3xl transform rotate-1 h-full">
+                    <div class="bg-bsl rounded-3xl transform -rotate-2 p-1 shadow h-full">
                         <div class="bg-white rounded-3xl p-8 shadow transform rotate-1  h-full">
                             <h3 class="text-3xl lg:text-5xl font-bold text-center mb-3">Web <span class="text-bsl">&</span> App <span class="font-light text-gray-700"> Development</span></h3>
                             <p class="text-center">Let´s give a new face to your online presence</p>
@@ -217,8 +217,8 @@
                 vero.</p>
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 my-10">
-                <div class="col-span-2 row-span-2 bg-indigo-200 rounded-3xl transform rotate-2 h-full">
-                    <div class="bg-bsl mx-1 my-3 rounded-3xl transform -rotate-3 p-3 shadow h-full -translate-y-4">
+                <div class="col-span-2 row-span-2 bg-indigo-200 rounded-3xl transform rotate-1 h-full">
+                    <div class="bg-bsl rounded-3xl transform -rotate-2 p-1 shadow h-full">
                         <div class="bg-white rounded-3xl p-8 shadow transform rotate-1  h-full">
                             <div class="flex items-center justify-center space-x-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
@@ -260,8 +260,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-span-2 bg-indigo-200 rounded-3xl transform rotate-2 h-full">
-                    <div class="bg-bsl mx-1 my-3 rounded-3xl transform -rotate-3 p-3 shadow h-full -translate-y-4">
+                <div class="col-span-2 lg:col-span-1 bg-indigo-200 rounded-3xl transform rotate-1 h-full">
+                    <div class="bg-bsl rounded-3xl transform -rotate-2 p-1 shadow h-full">
                         <div class="bg-white rounded-3xl px-4 py-8 shadow transform rotate-1  h-full">
                             <h3 class="text-center text-3xl font-bold">
                                 BSL <span class="font-light text-gray-700"> Management & maintenance</span></h3>
@@ -269,8 +269,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-span-2 bg-indigo-200 rounded-3xl transform rotate-2 h-full">
-                    <div class="bg-bsl mx-1 my-3 rounded-3xl transform -rotate-3 p-3 shadow h-full -translate-y-4">
+                <div class="col-span-2 lg:col-span-1 bg-indigo-200 rounded-3xl transform rotate-1 h-full">
+                    <div class="bg-bsl rounded-3xl transform -rotate-2 p-1 shadow h-full">
                         <div class="bg-white rounded-3xl px-4 py-8 shadow transform rotate-1  h-full">
                             <h3 class="text-center text-3xl font-bold">
                                 BSL <span class="font-light text-gray-700"> Periodic maintenance</span></h3>
@@ -284,25 +284,34 @@
 
     <!-- WHO ARE WE ------------->
     <section class="min-h-screen bg-bsl p-8 shadow-inner flex items-center mb-10 relative overflow-hidden">
+        <div class="absolute top-0 left-0 right-0 z-40">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" class="fill-current text-gray-50 h-8 w-full">
+                <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+            </svg>
+        </div>
         <div class="container mx-auto">
             <div>
-                <img src="{{asset("img/logo2.svg")}}" alt="" class="absolute lg:inset-0 h-full opacity-20 top:0">
+                <img src="{{asset("img/logo2.svg")}}" alt="" class="absolute  w-full opacity-10 top-0 left-0 right-0">
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
-                <div class="flex items-center justify-center p-8">
-                    <img src="{{asset("img/team.svg")}}" alt="Black Sun Labs logo" class="object-contain">
+            <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 relative">
+                <div class="flex items-center justify-center">
+                    <img src="{{asset("img/teams.svg")}}" alt="Black Sun Labs logo" class="object-contain">
                 </div>
-                <div class="flex flex-col items-center  justify-center h-full p-8">
-                    <h2 class="text-6xl text-gray-50 text-left block font-bold mb-10"><span class="font-normal">Who are</span> we</h2>
-                    <p class="text-xl text-gray-50"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, aperiam architecto assumenda consectetur deleniti deserunt dicta dolorum et ex excepturi expedita
-                        inventore ipsa itaque molestias
-                        mollitia nam necessitatibus numquam officiis placeat quas, quasi quisquam recusandae sequi, sunt totam vero voluptatem! Accusantium ad aliquam amet animi aspernatur aut autem commodi cum debitis dicta
-                        dolorem
-                        dolorum eos exercitationem, fugiat, fugit illum inventore iusto libero numquam quaerat quia quo reprehenderit sequi sint, ullam. Accusantium amet aperiam cumque doloremque est excepturi impedit ipsa iure,
-                        nihil
-                        nisi nulla veniam? Ab, harum hic praesentium rem saepe sint velit. Aut dolore officiis optio quae, unde velit!</p>
+                <div class="flex flex-col items-center  justify-center h-full">
+                    <div class="bg-indigo-400 mx-1 my-3 rounded-3xl transform -rotate-1 p-1 shadow h-full  shadow-lg">
+                        <div class="bg-white rounded-3xl p-8 shadow transform rotate-1 text-center h-full">
+                            <h2 class="text-6xl text-gray-700 text-left block font-bold mb-10 text-center"><span class="font-normal">Who are</span> we</h2>
+                            <p class="text-lg text-gray-700 text-left"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, aperiam architecto assumenda consectetur deleniti deserunt dicta dolorum et ex excepturi expedita
+                                inventore ipsa itaque molestias
+                                mollitia nam necessitatibus numquam officiis placeat quas, quasi quisquam recusandae sequi, sunt totam vero voluptatem! Accusantium ad aliquam amet animi aspernatur aut autem commodi cum debitis dicta
+                                dolorem
+                                dolorum eos exercitationem, fugiat, fugit illum inventore iusto libero numquam quaerat quia quo reprehenderit sequi sint, ullam. Accusantium amet aperiam cumque doloremque est excepturi impedit ipsa iure,
+                                nihil
+                                nisi nulla veniam? Ab, harum hic praesentium rem saepe sint velit. Aut dolore officiis optio quae, unde velit!</p>
 
-                    <a href="#contact" class="bg-white px-4 py-2 rounded-full mt-10 font-bold hover:bg-indigo-200 transition "><span class="font-normal">Contact </span>BSL <span class="font-normal">Team</span></a>
+                            <a href="#contact" class="inline-block  bg-bsl px-4 py-2 rounded-full mt-10 font-bold hover:bg-indigo-200 transition text-white"><span class="font-normal">Contact </span>BSL <span class="font-normal">Team</span></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

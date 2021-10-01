@@ -10,8 +10,13 @@ module.exports = {
 
         extend: {
             colors: {
-                bsl:"#4A59FF"
+                bsl:"#4A59FF",
+                'bsl-light':"#969FFF",
+                'bsl-accent':"#FF63B1",
             },
+            backgroundImage: {
+                'lineas-banner-top': "url('/img/lineas2.svg')",
+            }
         },
     },
     variants: {

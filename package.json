@@ -20,6 +20,8 @@
         "tailwindcss": "^2.2.15"
     },
     "dependencies": {
+        "@tailwindcss/forms": "^0.3.4",
+        "@tailwindcss/typography": "^0.4.1",
         "jquery": "^3.6.0"
     }
 }

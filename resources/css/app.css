@@ -2,12 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    .h-600px {
-        height: 600px;
-    }
-}
+@layer base {
 
-section{
-    overflow:hidden;
+    /** BUTTONS */
+    .button-bsl {
+        @apply shadow inline-flex px-4 py-2 rounded-full transition text-white  items-center justify-center bg-bsl
+        hover:bg-bsl-accent hover:text-gray-700;
+    }
+
+    .button-bsl-accent {
+        @apply shadow inline-flex px-4 py-2 rounded-full transition text-white flex items-center justify-center bg-bsl-accent
+        hover:bg-bsl hover:text-white;
+    }
+
+    /** FORMS */
+    textarea {
+        resize: none;
+    }
+
+    [type='text'],
+    [type='email'],
+    [type='url'],
+    [type='password'],
+    [type='number'],
+    [type='date'],
+    [type='datetime-local'],
+    [type='month'],
+    [type='search'],
+    [type='tel'],
+    [type='time'],
+    [type='week'],
+    [multiple],
+    textarea,
+    select {
+        @apply w-full border-gray-300 focus:ring-bsl rounded transition shadow-sm;
+    }
+
+    form label {
+        @apply block mb-1 text-lg;
+    }
+
+    /** HEADERS */
+    h1 b, h2 b, h3 b, h4 b {
+        @apply font-bold
+    }
+
+    h2 {
+        @apply text-4xl lg:text-6xl leading-tight
+    }
+
+    h3 {
+        @apply text-3xl lg:text-4xl text-center
+    }
+
+    /** TEXT */
+    p,h1,h2,h3,h4 {
+        max-width: 65ch;
+    }
+
+    /** SCROLLING */
+    html {
+        scroll-behavior: smooth;
+    }
 }

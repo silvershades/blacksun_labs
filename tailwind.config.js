@@ -5,10 +5,12 @@ module.exports = {
         fontFamily: {
             mono: ['Fira Mono', 'monospace'],
             serif: ['Poppins', 'serif'],
+            cursive: ['Nothing You Could Do', 'cursive']
 
         },
 
         extend: {
+
             colors: {
                 bsl:"#4A59FF",
                 'bsl-light':"#969FFF",
@@ -24,5 +26,8 @@ module.exports = {
             animation: ['group-hover'],
         },
     },
-    plugins: [],
+    plugins: [
+        require("@tailwindcss/forms"),
+        // require("@tailwindcss/typography")
+    ],
 }

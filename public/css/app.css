@@ -18282,6 +18282,10 @@ html {
   background-image: url('/img/lineas2.svg');
 }
 
+.bg-lineas-service {
+  background-image: url('/img/fondo.png');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -50078,6 +50082,10 @@ html {
     background-image: url('/img/lineas2.svg');
   }
 
+  .sm\:bg-lineas-service {
+    background-image: url('/img/fondo.png');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -81860,6 +81868,10 @@ html {
 
   .md\:bg-lineas-banner-top {
     background-image: url('/img/lineas2.svg');
+  }
+
+  .md\:bg-lineas-service {
+    background-image: url('/img/fondo.png');
   }
 
   .md\:from-transparent {
@@ -113646,6 +113658,10 @@ html {
     background-image: url('/img/lineas2.svg');
   }
 
+  .lg\:bg-lineas-service {
+    background-image: url('/img/fondo.png');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -145430,6 +145446,10 @@ html {
     background-image: url('/img/lineas2.svg');
   }
 
+  .xl\:bg-lineas-service {
+    background-image: url('/img/fondo.png');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -177212,6 +177232,10 @@ html {
 
   .\32xl\:bg-lineas-banner-top {
     background-image: url('/img/lineas2.svg');
+  }
+
+  .\32xl\:bg-lineas-service {
+    background-image: url('/img/fondo.png');
   }
 
   .\32xl\:from-transparent {

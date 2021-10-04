@@ -18,6 +18,7 @@ module.exports = {
             },
             backgroundImage: {
                 'lineas-banner-top': "url('/img/lineas2.svg')",
+                'lineas-service': "url('/img/fondo.png')",
             }
         },
     },

@@ -13,11 +13,16 @@ module.exports = {
 
             colors: {
                 bsl:"#4A59FF",
-                'bsl-light':"#969FFF",
-                'bsl-accent':"#FF63B1",
+                'bsl-light':"#929bff",
+                'bsl-dark':"#2c3599",
+                'bsl-accent':"#FF6463",
+                'bsl-accent-light':"#ffa2a1",
+                'bsl-accent-dark':"#993c3b",
+
             },
             backgroundImage: {
                 'lineas-banner-top': "url('/img/lineas2.svg')",
+                'lineas-full': "url('/img/lineas2_full.svg')",
                 'lineas-service': "url('/img/fondo.png')",
             }
         },
@@ -25,6 +30,8 @@ module.exports = {
     variants: {
         extend: {
             animation: ['group-hover'],
+            ringWidth: ['hover'],
+            ringColor: ['hover'],
         },
     },
     plugins: [

@@ -38,7 +38,7 @@
         <div class="flex items-center relative mt-20">
             <div class="rounded-3xl bg-bsl-accent transform -rotate-1 h-full shadow-lg">
                 <div class="rounded-3xl bg-bsl transform rotate-2 p-1 h-full shadow">
-                    <div class="py-10 px-4 lg:px-14 bg-white rounded-3xl transform -rotate-1 h-full shadow">
+                    <div class="py-10 px-4 lg:px-14 bg-white rounded-3xl transform -rotate-1 h-full shadow ">
                         <div class="flex flex-col items-center space-y-4 lg:space-y-10">
                             <img src="{{asset("img/logo2.svg")}}" alt="Black Sun Labs logo" class="object-contain h-32 mb-3">
                             <h1 class="text-4xl lg:text-7xl mb-2 text-center"><b>Webs</b> <span class="text-bsl"> & </span><b>Brands</b> Development</h1>
@@ -59,7 +59,7 @@
 </header>
 
 <div aria-hidden="true">
-    <div class="h-10 bg-bsl shadow"></div>
+    <div class="h-16 bg-bsl shadow"></div>
 </div>
 
 <main>
@@ -69,82 +69,145 @@
             <h2>Our <b>Services</b></h2>
             <p class="text-gray-500 text-lg">We offer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
                 vero.</p>
+            <!--WEB DEVELOPMENT -->
             <div class="grid grid-cols-1 gap-20 mt-10">
-                <div class="bg-bsl-accent rounded-3xl transform rotate-1 h-full">
-                    <div class="bg-indigo-400 rounded-3xl transform -rotate-2 p-1 shadow h-full">
-                        <div class="bg-white rounded-3xl  shadow transform rotate-1  h-full">
-                            <div class="grid grid-cols-1 lg:grid-cols-3">
-                                <div class="bg-bsl text-white p-8 rounded-tr-3xl lg:rounded-tr-none rounded-tl-3xl lg:rounded-bl-3xl overflow-hidden relative">
-                                    <img src="{{asset("img/lines_full.svg")}}" alt="" class="absolute inset-0 w-full h-full object-cover opacity-20 z-0">
-                                    <div class="relative z-10 flex flex-col space-y-3 lg:space-y-10 items-center justify-center h-full ">
-                                        <h3 class="text-4xl"><b class="text-6xl block">Web</b> Development</h3>
-                                        <img src="{{asset("img/webdev.svg")}}" alt="Web and app development image" class="object-contain p-8 w-full max-h-64 lg:max-h-full">
-                                        <a href="#contact" class="button-bsl-accent">Contact BSL</a>
-                                    </div>
+                <div class="bg-white rounded-3xl  shadow transform  h-full ">
+                    <div class="grid grid-cols-1 lg:grid-cols-3">
+                        <div class="bg-bsl text-white p-8 rounded-tr-3xl lg:rounded-tr-none rounded-tl-3xl lg:rounded-bl-3xl overflow-hidden relative">
+                            <img src="{{asset("img/lines_full.svg")}}" alt="" class="absolute inset-0 w-full h-full object-cover opacity-5 z-0">
+                            <div class="relative z-10 flex flex-col space-y-3 lg:space-y-10 items-center justify-center h-full ">
+                                <h3 class="text-3xl text-gray-100"><b class="text-6xl block text-white">WEB</b> Design & Development</h3>
+                                <img src="{{asset("img/webdev.svg")}}" alt="Web and app development image" class="object-contain p-8 w-full max-h-64 lg:max-h-full">
+                                <a href="#contact" class="button-bsl-accent">Contact BSL</a>
+                            </div>
+                        </div>
+                        <div class="lg:col-span-2 space-y-6 p-8">
+                            <p class="text-center mx-auto font-cursive font-bold text-2xl text-bsl-accent">Redefine your online presence </p>
+
+                            <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                <div class="lg:w-64 flex items-center justify-center">
+                                    <img src="{{asset("img/services/responsive.svg")}}" alt="" class="object-contain w-16 mx-auto">
                                 </div>
-                                <div class="lg:col-span-2 space-y-6 p-8">
-                                    <p class="text-center mx-auto font-cursive font-bold text-2xl text-bsl-accent">Redefine your online presence </p>
+                                <div class="w-auto">
+                                    <p class="font-bold text-xl">Full development <span class="font-normal">spectrum</span></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
+                                        possimus quae
+                                        similique.</p>
+                                </div>
+                            </div>
+                            <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                <div class="lg:w-64 flex items-center justify-center">
+                                    <img src="{{asset("img/services/ui.svg")}}" alt="" class="object-contain w-16 mx-auto">
+                                </div>
+                                <div class="w-auto">
+                                    <p class="font-bold text-xl">UX & UI <span class="font-normal">intelligent design</span></p>
 
-                                    <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
-                                        <div class="lg:w-64 flex items-center justify-center">
-                                            <img src="{{asset("img/services/responsive.svg")}}" alt="" class="object-contain w-16 mx-auto">
-                                        </div>
-                                        <div class="w-auto">
-                                            <p class="font-bold text-xl">Full development <span class="font-normal">spectrum</span></p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
-                                                possimus quae
-                                                similique.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
-                                        <div class="lg:w-64 flex items-center justify-center">
-                                            <img src="{{asset("img/services/ui.svg")}}" alt="" class="object-contain w-16 mx-auto">
-                                        </div>
-                                        <div class="w-auto">
-                                            <p class="font-bold text-xl">UX & UI <span class="font-normal">intelligent design</span></p>
-
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
-                                                possimus quae
-                                                similique.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
-                                        <div class="lg:w-64 flex items-center justify-center">
-                                            <img src="{{asset("img/services/seo.svg")}}" alt="" class="object-contain w-16 mx-auto">
-                                        </div>
-                                        <div class="w-auto">
-                                            <p class="font-bold text-xl">SEO <span class="font-normal">optimization</span></p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
-                                                possimus quae
-                                                similique.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
-                                        <div class="lg:w-64 flex items-center justify-center">
-                                            <img src="{{asset("img/services/technos.svg")}}" alt="" class="object-contain w-16 mx-auto">
-                                        </div>
-                                        <div class="w-auto">
-                                            <p class="font-bold text-xl">Technologies <span class="font-normal">at hand</span></p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
-                                                possimus quae
-                                                similique.</p>
-                                        </div>
-                                    </div>
-
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
+                                        possimus quae
+                                        similique.</p>
+                                </div>
+                            </div>
+                            <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                <div class="lg:w-64 flex items-center justify-center">
+                                    <img src="{{asset("img/services/seo.svg")}}" alt="" class="object-contain w-16 mx-auto">
+                                </div>
+                                <div class="w-auto">
+                                    <p class="font-bold text-xl">SEO <span class="font-normal">optimization</span></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
+                                        possimus quae
+                                        similique.</p>
+                                </div>
+                            </div>
+                            <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                <div class="lg:w-64 flex items-center justify-center">
+                                    <img src="{{asset("img/services/technos.svg")}}" alt="" class="object-contain w-16 mx-auto">
+                                </div>
+                                <div class="w-auto">
+                                    <p class="font-bold text-xl">Technologies <span class="font-normal">at hand</span></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
+                                        possimus quae
+                                        similique.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <!--BRANDING -->
+            <div class="grid grid-cols-1 gap-20 mt-10">
+                <div class="bg-white rounded-3xl  shadow transform  h-full ">
+                    <div class="grid grid-cols-1 lg:grid-cols-3">
+                        <div class="bg-bsl text-white p-8 rounded-tr-3xl lg:rounded-tr-none rounded-tl-3xl lg:rounded-bl-3xl overflow-hidden relative">
+                            <img src="{{asset("img/lines_full.svg")}}" alt="" class="absolute inset-0 w-full h-full object-cover opacity-5 z-0">
+                            <div class="relative z-10 flex flex-col space-y-3 lg:space-y-10 items-center justify-center h-full ">
+                                <h3 class="text-3xl text-gray-100"><b class="text-6xl block text-white">BRAND</b> Design</h3>
+                                <img src="{{asset("img/webdev.svg")}}" alt="Web and app development image" class="object-contain p-8 w-full max-h-64 lg:max-h-full">
+                                <a href="#contact" class="button-bsl-accent">Contact BSL</a>
+                            </div>
+                        </div>
+                        <div class="lg:col-span-2 space-y-6 p-8">
+                            <p class="text-center mx-auto font-cursive font-bold text-2xl text-bsl-accent">Redefine your online presence </p>
 
+                            <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                <div class="lg:w-64 flex items-center justify-center">
+                                    <img src="{{asset("img/services/responsive.svg")}}" alt="" class="object-contain w-16 mx-auto">
+                                </div>
+                                <div class="w-auto">
+                                    <p class="font-bold text-xl">Full development <span class="font-normal">spectrum</span></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
+                                        possimus quae
+                                        similique.</p>
+                                </div>
+                            </div>
+                            <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                <div class="lg:w-64 flex items-center justify-center">
+                                    <img src="{{asset("img/services/ui.svg")}}" alt="" class="object-contain w-16 mx-auto">
+                                </div>
+                                <div class="w-auto">
+                                    <p class="font-bold text-xl">UX & UI <span class="font-normal">intelligent design</span></p>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
+                                        possimus quae
+                                        similique.</p>
+                                </div>
+                            </div>
+                            <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                <div class="lg:w-64 flex items-center justify-center">
+                                    <img src="{{asset("img/services/seo.svg")}}" alt="" class="object-contain w-16 mx-auto">
+                                </div>
+                                <div class="w-auto">
+                                    <p class="font-bold text-xl">SEO <span class="font-normal">optimization</span></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
+                                        possimus quae
+                                        similique.</p>
+                                </div>
+                            </div>
+                            <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
+                                <div class="lg:w-64 flex items-center justify-center">
+                                    <img src="{{asset("img/services/technos.svg")}}" alt="" class="object-contain w-16 mx-auto">
+                                </div>
+                                <div class="w-auto">
+                                    <p class="font-bold text-xl">Technologies <span class="font-normal">at hand</span></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, est officia quod sequi sit ullam velit? Distinctio enim iste maxime recusandae sint! Animi in iure nihil
+                                        possimus quae
+                                        similique.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <div aria-hidden="true">
-        <div class="h-10 bg-bsl shadow"></div>
+    <div aria-hidden="true" class="h-16 bg-lineas-full bg-cover bg-left relative">
+        <div>
+            <div class="h-5 bg-bsl"></div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0">
+            <div class="h-5 bg-bsl shadow"></div>
+        </div>
     </div>
-
     <!-- BENEFTIS ------------->
     <section class="min-h-screen bg-gray-50 p-8" id="benefits">
         <div class="container mx-auto ">
@@ -166,7 +229,7 @@
                             </div>
                             <p class="text-lg mt-2 text-center">Manage all aspects of your projects with us</p>
                             <p class="mt-10">We offer you access to our control panel where you can administrate all aspects of your projects with us. Deadlines, bugs, reports, maintenance and more.</p>
-                            <div class="grid grid-cols-2 gap-10 mt-5">
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-5">
                                 <div>
                                     <p class="text-2xl mb-3 font-bold">Milestones <span class="font-normal">viewer</span></p>
                                     <p>We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
@@ -183,11 +246,11 @@
                                     <p class="text-2xl mb-3 font-bold">Backups <span class="font-normal">managment</span></p>
                                     <p>We update our knowledge everyday. That is why we offer our servicesalong side the best and newest technologies.</p>
                                 </div>
-                                <div class="col-span-2">
+                                <div class="lg:col-span-2">
                                     <p class="text-2xl mb-3 font-bold">Client <span class="font-normal">priority changes</span></p>
                                     <p>We update our knowledge everyday. That is why we offer our servicesalong side the best and newest technologies.</p>
                                 </div>
-                                <div class="col-span-2 text-center">
+                                <div class="lg:col-span-2 text-center">
                                     <a href="" class="button-bsl">
                                         View demo
                                     </a>
@@ -200,7 +263,6 @@
                     <div class="bg-bsl rounded-3xl transform -rotate-2 p-1 shadow h-full">
                         <div class="bg-white rounded-3xl px-4 py-8 shadow transform rotate-1  h-full">
                             <h3><b>BSL</b> Management & Maintenance</h3>
-
                         </div>
                     </div>
                 </div>
@@ -208,7 +270,6 @@
                     <div class="bg-bsl rounded-3xl transform -rotate-2 p-1 shadow h-full">
                         <div class="bg-white rounded-3xl px-4 py-8 shadow transform rotate-1  h-full">
                             <h3><b>BSL</b> Management & Maintenance</h3>
-
                         </div>
                     </div>
                 </div>
@@ -216,31 +277,30 @@
         </div>
     </section>
 
-    <!-- WHO ARE WE ------------->
+    <!-- VISION ------------->
     <section class="min-h-screen bg-gray-700 p-8 flex items-center mb-10 relative overflow-hidden" id="vision">
         <div class="container mx-auto">
-            <h2 class="text-bsl-accent">Our <b>Vision</b></h2>
+            <h2 class="text-bsl-accent relative z-30">Our <b>Vision</b></h2>
             <div aria-hidden="true">
                 <img src="{{asset("img/lines_full.svg")}}" alt="" class="absolute z-0 w-full opacity-10 top-0 left-0 right-0">
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-1 items-center gap-32 relative">
-
                 <div class="flex flex-col items-center  justify-center h-full">
-                    <div class="bg-bsl-accent mx-1 my-3 rounded-3xl transform -rotate-1 p-1 shadow h-full  shadow-lg">
-                        <div class="bg-gray-50 rounded-3xl p-8 shadow transform rotate-1 text-center h-full flex items-center flex-col justify-center">
-                            <div>
-                                <img src="{{asset("img/logo2.svg")}}" alt="Logo black sun labs" class="w-16 mb-5">
-                            </div>
-                            <p class="text-lg  text-left "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, aperiam architecto assumenda consectetur deleniti deserunt dicta dolorum et ex excepturi expedita
-                                inventore ipsa itaque molestias
-                                mollitia nam necessitatibus numquam officiis placeat quas, quasi quisquam recusandae sequi, sunt totam vero voluptatem! Accusantium ad aliquam amet animi aspernatur aut autem commodi cum debitis dicta
-                                dolorem
-                                dolorum eos exercitationem, fugiat, fugit illum inventore iusto libero numquam quaerat quia quo reprehenderit sequi sint, ullam. Accusantium amet aperiam cumque doloremque est excepturi impedit ipsa iure,
-                                nihil
-                                nisi nulla veniam? Ab, harum hic praesentium rem saepe sint velit. Aut dolore officiis optio quae, unde velit!</p>
-
-                            <a href="#contact" class="button-bsl-accent"><span class="font-normal">Contact </span>BSL <span class="font-normal">Team</span></a>
+                    <div class="bg-gray-50 rounded-3xl p-8 shadow transform text-center h-full flex items-center flex-col justify-center">
+                        <div>
+                            <img src="{{asset("img/logo2.svg")}}" alt="Logo black sun labs" class="w-16 mb-5">
                         </div>
+                        <p class="text-lg  text-left "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, aperiam architecto assumenda consectetur deleniti deserunt dicta dolorum et ex excepturi
+                            expedita
+                            inventore ipsa itaque molestias
+                            mollitia nam necessitatibus numquam officiis placeat quas, quasi quisquam recusandae sequi, sunt totam vero voluptatem! Accusantium ad aliquam amet animi aspernatur aut autem commodi cum debitis
+                            dicta
+                            dolorem
+                            dolorum eos exercitationem, fugiat, fugit illum inventore iusto libero numquam quaerat quia quo reprehenderit sequi sint, ullam. Accusantium amet aperiam cumque doloremque est excepturi impedit ipsa
+                            iure,
+                            nihil
+                            nisi nulla veniam? Ab, harum hic praesentium rem saepe sint velit. Aut dolore officiis optio quae, unde velit!</p>
+                        <a href="#contact" class="mt-10 button-bsl-accent"><span class="font-normal">Contact </span>BSL <span class="font-normal">Team</span></a>
                     </div>
                 </div>
             </div>
@@ -300,7 +360,6 @@
 </main>
 <footer class="bg-gray-200">
     <div class="grid grid-cols-1 lg:grid-cols-3  p-8 container mx-auto gap-10">
-
         <div class="flex items-center justify-center space-x-10">
             <img src="{{asset("img/logo_gray.svg")}}" alt="logo black suns lab" class="object-contain w-44">
             <div>
@@ -325,7 +384,6 @@
             <ul>
                 <li>Instagram</li>
                 <li>Twitter</li>
-
             </ul>
         </div>
         <div class="col-end-3 mt-10">
@@ -333,7 +391,5 @@
         </div>
     </div>
 </footer>
-
 </body>
-
 </html>

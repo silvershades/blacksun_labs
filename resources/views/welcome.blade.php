@@ -59,25 +59,27 @@
 </header>
 
 <main>
-    <!-- ABOUT US ------------->
+    {{--    <!-- ABOUT US ------------->--}}
     <div aria-hidden="true" class="h-10 bg-bsl w-full"></div>
-    <section id="aboutus1" class="bg-gradient-to-b from-bsl to-gray-50 mb-10">
-        <div class="container mx-auto py-20 mb-14 px-8 lg:px-0">
-            <div class="grid grid-cols-1 lg:grid-cols-3 items-center gap-10">
-                <div>
-                    <h2 class="text-white "><b>BSL</b> vision</h2>
-                </div>
-                <div class="lg:col-span-2 bg-white rounded-3xl shadow text-center p-8">
-                    <p class="mx-auto text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eveniet quibusdam recusandae sequi sint soluta. Aut cumque debitis delectus dolores eligendi enim esse ex fugit illo incidunt inventore
-                        ipsum maiores nam nemo
-                        nulla, quaerat, quis quisquam quos, repellat velit. Consequuntur deleniti dolore fuga fugiat impedit necessitatibus perferendis quo reprehenderit velit.</p>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-    <!-- SERVICES ------------->
+{{--    <section id="aboutus1" class="bg-bsl mb-10">--}}
+{{--        <div class="container mx-auto py-20 mb-14 px-8 lg:px-0">--}}
+{{--            <div class="grid grid-cols-1 lg:grid-cols-3 items-center gap-10">--}}
+{{--                <div>--}}
+{{--                    <h2 class="text-white "><b>BSL</b> vision</h2>--}}
+{{--                </div>--}}
+{{--                <div class="text-center p-8">--}}
+{{--                    <p class="text-white font-cursive text-4xl">Performance</p>--}}
+{{--                </div>--}}
+{{--                <div class="text-center p-8">--}}
+{{--                    <p class="text-white font-cursive text-4xl">Style</p>--}}
+{{--                </div>--}}
+{{--                <div class="text-center p-8">--}}
+{{--                    <p class="text-white font-cursive text-4xl">Design</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
+<!-- SERVICES ------------->
     <section class="mb-20 p-8" id="services">
         <div class="container mx-auto min-h-screen pt-10">
             <h2>Our <b>Services</b></h2>
@@ -213,28 +215,38 @@
             </div>
         </div>
     </section>
+
     <!-- TRAJECTORY ------------->
-    <div aria-hidden="true" class="h-10 bg-bsl w-full"></div>
-    <section id="aboutus2" class="bg-gradient-to-b from-bsl to-gray-50">
+    <section id="aboutus2" class="bg-bsl">
+
         <div class="container mx-auto text-white py-20 mb-14 px-8 lg:px-0">
             <div class="grid grid-cols-1 lg:grid-cols-5 items-center gap-10">
                 <div class="col-span-2">
                     <h2><b>BSL</b> trajectory</h2>
                 </div>
-                <div class="bg-gray-50 rounded-3xl shadow text-bsl text-center p-8 h-full">
-                    <img src="{{asset("img/about/website.png")}}" alt="webs made icon" class="w-12 mx-auto my-2">
-                    <p class="text-xl">Webs <br> developed</p>
-                    <p class="text-6xl font-bold">900+</p>
+                <div class="bg-bsl-accent-light transform -rotate-2  rounded-3xl">
+                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-3xl">
+                        <div class="bg-white rounded-3xl shadow text-bsl text-center p-8 h-full transform -rotate-1">
+                            <p class="text-xl">Webs <br> developed</p>
+                            <p class="text-6xl font-bold">900+</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="bg-gray-50 rounded-3xl shadow text-bsl text-center p-8 h-full">
-                    <img src="{{asset("img/about/brand.png")}}" alt="webs made icon" class="w-12 mx-auto my-2 ">
-                    <p class="text-xl">Brands <br> created</p>
-                    <p class="text-6xl font-bold">300+</p>
+                <div class="bg-bsl-accent-light transform -rotate-2  rounded-3xl">
+                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-3xl">
+                        <div class="bg-white rounded-3xl shadow text-bsl text-center p-8 h-full transform -rotate-1">
+                            <p class="text-xl">Brands <br> created</p>
+                            <p class="text-6xl font-bold">300+</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="bg-gray-50 rounded-3xl shadow text-bsl text-center p-8 h-full">
-                    <img src="{{asset("img/about/experience.png")}}" alt="webs made icon" class="w-12 mx-auto my-2 ">
-                    <p class="text-xl">Years of <br>experience</p>
-                    <p class="text-6xl font-bold">15+</p>
+                <div class="bg-bsl-accent-light transform -rotate-2  rounded-3xl">
+                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-3xl">
+                        <div class="bg-white rounded-3xl shadow text-bsl text-center p-8 h-full transform -rotate-1">
+                            <p class="text-xl">Years of <br>experience</p>
+                            <p class="text-6xl font-bold">15+</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -39,7 +39,7 @@
     [multiple],
     textarea,
     select {
-        @apply w-full border-gray-300 focus:ring-bsl rounded transition shadow-sm;
+        @apply w-full border-gray-300 focus:ring-4 focus:ring-bsl-light rounded transition shadow-sm outline-none;
     }
 
     form label {
@@ -68,4 +68,5 @@
     html {
         scroll-behavior: smooth;
     }
+
 }

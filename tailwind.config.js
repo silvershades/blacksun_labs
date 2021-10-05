@@ -10,7 +10,10 @@ module.exports = {
         },
 
         extend: {
-
+            skew: {
+                '25': '25deg',
+                '60': '60deg',
+            },
             colors: {
                 bsl:"#4A59FF",
                 'bsl-light':"#929bff",

@@ -63,11 +63,11 @@
     <div aria-hidden="true" class="h-10 bg-bsl w-full"></div>
     <section id="aboutus1" class="bg-gradient-to-b from-bsl to-gray-50 mb-10">
         <div class="container mx-auto py-20 mb-14 px-8 lg:px-0">
-            <div class="grid grid-cols-1 lg:grid-cols-4 items-center gap-10">
+            <div class="grid grid-cols-1 lg:grid-cols-3 items-center gap-10">
                 <div>
                     <h2 class="text-white "><b>BSL</b> vision</h2>
                 </div>
-                <div class="lg:col-span-3 bg-white rounded-3xl shadow text-center p-8">
+                <div class="lg:col-span-2 bg-white rounded-3xl shadow text-center p-8">
                     <p class="mx-auto text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eveniet quibusdam recusandae sequi sint soluta. Aut cumque debitis delectus dolores eligendi enim esse ex fugit illo incidunt inventore
                         ipsum maiores nam nemo
                         nulla, quaerat, quis quisquam quos, repellat velit. Consequuntur deleniti dolore fuga fugiat impedit necessitatibus perferendis quo reprehenderit velit.</p>

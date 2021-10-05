@@ -28,7 +28,7 @@
             <ul class="hidden lg:grid grid-cols-5 gap-4 text-center items-center h-20 lg:text-lg w-2/3">
                 <li><a href="#services">Services</a></li>
                 <li><a href="#benefits">Benefits</a></li>
-                <li><a href="#vision">Vision</a></li>
+                <li><a href="#benefits">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#">Clients</a></li>
             </ul>
@@ -44,7 +44,7 @@
                             <h1 class="text-4xl lg:text-7xl mb-2 text-center"><b>Webs</b> <span class="text-bsl"> & </span><b>Brands</b> Development</h1>
                             <p class="text-xl mt-5 text-center mx-auto">Let's create something <span class="font-cursive font-bold text-3xl text-bsl-accent px-2">unique</span> for your needs.</p>
                             <div class="mt-10">
-                                <a href="#contact" class="button-bsl">
+                                <a href="#services" class="button-bsl">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 13l-5 5m0 0l-5-5m5 5V6"/>
                                     </svg>
@@ -58,11 +58,25 @@
     </div>
 </header>
 
-<div aria-hidden="true">
-    <div class="h-16 bg-bsl shadow"></div>
-</div>
-
 <main>
+    <!-- ABOUT US ------------->
+    <div aria-hidden="true" class="h-10 bg-bsl w-full"></div>
+    <section id="aboutus1" class="bg-gradient-to-b from-bsl to-gray-50 mb-10">
+        <div class="container mx-auto py-20 mb-14 px-8 lg:px-0">
+            <div class="grid grid-cols-1 lg:grid-cols-4 items-center gap-10">
+                <div>
+                    <h2 class="text-white "><b>BSL</b> vision</h2>
+                </div>
+                <div class="lg:col-span-3 bg-white rounded-3xl shadow text-center p-8">
+                    <p class="mx-auto text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eveniet quibusdam recusandae sequi sint soluta. Aut cumque debitis delectus dolores eligendi enim esse ex fugit illo incidunt inventore
+                        ipsum maiores nam nemo
+                        nulla, quaerat, quis quisquam quos, repellat velit. Consequuntur deleniti dolore fuga fugiat impedit necessitatibus perferendis quo reprehenderit velit.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
     <!-- SERVICES ------------->
     <section class="mb-20 p-8" id="services">
         <div class="container mx-auto min-h-screen pt-10">
@@ -150,7 +164,7 @@
 
                             <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
                                 <div class="lg:w-64 flex items-center justify-center">
-                                    <img src="{{asset("img/services/responsive.svg")}}" alt="" class="object-contain w-16 mx-auto">
+                                    <img src="{{asset("img/services/pallete.png")}}" alt="" class="object-contain w-16 mx-auto">
                                 </div>
                                 <div class="w-auto">
                                     <p class="font-bold text-xl">Full development <span class="font-normal">spectrum</span></p>
@@ -161,7 +175,7 @@
                             </div>
                             <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
                                 <div class="lg:w-64 flex items-center justify-center">
-                                    <img src="{{asset("img/services/ui.svg")}}" alt="" class="object-contain w-16 mx-auto">
+                                    <img src="{{asset("img/services/logo.png")}}" alt="" class="object-contain w-16 mx-auto">
                                 </div>
                                 <div class="w-auto">
                                     <p class="font-bold text-xl">UX & UI <span class="font-normal">intelligent design</span></p>
@@ -173,7 +187,7 @@
                             </div>
                             <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
                                 <div class="lg:w-64 flex items-center justify-center">
-                                    <img src="{{asset("img/services/seo.svg")}}" alt="" class="object-contain w-16 mx-auto">
+                                    <img src="{{asset("img/services/mockup.png")}}" alt="" class="object-contain w-16 mx-auto">
                                 </div>
                                 <div class="w-auto">
                                     <p class="font-bold text-xl">SEO <span class="font-normal">optimization</span></p>
@@ -184,7 +198,7 @@
                             </div>
                             <div class="flex space-y-5 lg:space-x-4 flex-col lg:flex-row">
                                 <div class="lg:w-64 flex items-center justify-center">
-                                    <img src="{{asset("img/services/technos.svg")}}" alt="" class="object-contain w-16 mx-auto">
+                                    <img src="{{asset("img/services/font.png")}}" alt="" class="object-contain w-16 mx-auto">
                                 </div>
                                 <div class="w-auto">
                                     <p class="font-bold text-xl">Technologies <span class="font-normal">at hand</span></p>
@@ -199,15 +213,32 @@
             </div>
         </div>
     </section>
-
-    <div aria-hidden="true" class="h-16 bg-lineas-full bg-cover bg-left relative">
-        <div>
-            <div class="h-5 bg-bsl"></div>
+    <!-- TRAJECTORY ------------->
+    <div aria-hidden="true" class="h-10 bg-bsl w-full"></div>
+    <section id="aboutus2" class="bg-gradient-to-b from-bsl to-gray-50">
+        <div class="container mx-auto text-white py-20 mb-14 px-8 lg:px-0">
+            <div class="grid grid-cols-1 lg:grid-cols-5 items-center gap-10">
+                <div class="col-span-2">
+                    <h2><b>BSL</b> trajectory</h2>
+                </div>
+                <div class="bg-gray-50 rounded-3xl shadow text-bsl text-center p-8 h-full">
+                    <img src="{{asset("img/about/website.png")}}" alt="webs made icon" class="w-12 mx-auto my-2">
+                    <p class="text-xl">Webs <br> developed</p>
+                    <p class="text-6xl font-bold">900+</p>
+                </div>
+                <div class="bg-gray-50 rounded-3xl shadow text-bsl text-center p-8 h-full">
+                    <img src="{{asset("img/about/brand.png")}}" alt="webs made icon" class="w-12 mx-auto my-2 ">
+                    <p class="text-xl">Brands <br> created</p>
+                    <p class="text-6xl font-bold">300+</p>
+                </div>
+                <div class="bg-gray-50 rounded-3xl shadow text-bsl text-center p-8 h-full">
+                    <img src="{{asset("img/about/experience.png")}}" alt="webs made icon" class="w-12 mx-auto my-2 ">
+                    <p class="text-xl">Years of <br>experience</p>
+                    <p class="text-6xl font-bold">15+</p>
+                </div>
+            </div>
         </div>
-        <div class="absolute bottom-0 left-0 right-0">
-            <div class="h-5 bg-bsl shadow"></div>
-        </div>
-    </div>
+    </section>
     <!-- BENEFTIS ------------->
     <section class="min-h-screen bg-gray-50 p-8" id="benefits">
         <div class="container mx-auto ">
@@ -216,80 +247,65 @@
                 vero.</p>
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 my-10">
-                <div class="col-span-2 row-span-2 bg-indigo-200 rounded-3xl transform rotate-1 h-full">
-                    <div class="bg-bsl rounded-3xl transform -rotate-2 p-1 shadow h-full">
-                        <div class="bg-white rounded-3xl p-8 shadow transform rotate-1  h-full">
-                            <div class="flex items-center justify-center space-x-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
-                                     stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-                                </svg>
-                                <h3><b>BSL</b> User Panel</h3>
-                            </div>
-                            <p class="text-lg mt-2 text-center">Manage all aspects of your projects with us</p>
-                            <p class="mt-10">We offer you access to our control panel where you can administrate all aspects of your projects with us. Deadlines, bugs, reports, maintenance and more.</p>
-                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-5">
-                                <div>
-                                    <p class="text-2xl mb-3 font-bold">Milestones <span class="font-normal">viewer</span></p>
-                                    <p>We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
-                                </div>
-                                <div>
-                                    <p class="text-2xl mb-3 font-bold">Bug & Error <span class="font-normal">report system</span></p>
-                                    <p>We update our knowledge everyday. That is why we offer our servicesalong side the best and newest technologies.</p>
-                                </div>
-                                <div>
-                                    <p class="text-2xl mb-3 font-bold">Payments <span class="font-normal">timeline</span></p>
-                                    <p>We update our knowledge everyday. That is why we offer our servicesalong side the best and newest technologies.</p>
-                                </div>
-                                <div>
-                                    <p class="text-2xl mb-3 font-bold">Backups <span class="font-normal">managment</span></p>
-                                    <p>We update our knowledge everyday. That is why we offer our servicesalong side the best and newest technologies.</p>
-                                </div>
-                                <div class="lg:col-span-2">
-                                    <p class="text-2xl mb-3 font-bold">Client <span class="font-normal">priority changes</span></p>
-                                    <p>We update our knowledge everyday. That is why we offer our servicesalong side the best and newest technologies.</p>
-                                </div>
-                                <div class="lg:col-span-2 text-center">
-                                    <a href="" class="button-bsl">
-                                        View demo
-                                    </a>
-                                </div>
-                            </div>
+                <div class="lg:col-span-2 lg:row-span-2 bg-white rounded-3xl p-8 shadow h-full">
+                    <div class="flex items-center justify-center space-x-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                             stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                        <h3><b>BSL</b> User Panel</h3>
+                    </div>
+                    <p class="text-lg mt-2 text-center">Manage all aspects of your projects with us</p>
+                    <p class="mt-10">We offer you access to our control panel where you can administrate all aspects of your projects with us. Deadlines, bugs, reports, maintenance and more.</p>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-5">
+                        <div>
+                            <p class="text-2xl mb-3 font-bold">Milestones <span class="font-normal">viewer</span></p>
+                            <p>We update our knowledge everyday. That is why we offer our services along side the best and newest technologies.</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl mb-3 font-bold">Bug & Error <span class="font-normal">report system</span></p>
+                            <p>We update our knowledge everyday. That is why we offer our servicesalong side the best and newest technologies.</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl mb-3 font-bold">Payments <span class="font-normal">timeline</span></p>
+                            <p>We update our knowledge everyday. That is why we offer our servicesalong side the best and newest technologies.</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl mb-3 font-bold">Backups <span class="font-normal">managment</span></p>
+                            <p>We update our knowledge everyday. That is why we offer our servicesalong side the best and newest technologies.</p>
+                        </div>
+                        <div class="lg:col-span-2">
+                            <p class="text-2xl mb-3 font-bold">Client <span class="font-normal">priority changes</span></p>
+                            <p>We update our knowledge everyday. That is why we offer our servicesalong side the best and newest technologies.</p>
+                        </div>
+                        <div class="lg:col-span-2 text-center">
+                            <a href="" class="button-bsl">
+                                View demo
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-span-2 lg:col-span-1 bg-indigo-200 rounded-3xl transform rotate-1 h-full">
-                    <div class="bg-bsl rounded-3xl transform -rotate-2 p-1 shadow h-full">
-                        <div class="bg-white rounded-3xl px-4 py-8 shadow transform rotate-1  h-full">
-                            <h3><b>BSL</b> Management & Maintenance</h3>
-                        </div>
-                    </div>
+                <div class="bg-white rounded-3xl px-4 py-8 shadow h-full">
+                    <h3><b>BSL</b> Management & Maintenance</h3>
                 </div>
-                <div class="col-span-2 lg:col-span-1 bg-indigo-200 rounded-3xl transform rotate-1 h-full">
-                    <div class="bg-bsl rounded-3xl transform -rotate-2 p-1 shadow h-full">
-                        <div class="bg-white rounded-3xl px-4 py-8 shadow transform rotate-1  h-full">
-                            <h3><b>BSL</b> Management & Maintenance</h3>
-                        </div>
-                    </div>
+                <div class="bg-white rounded-3xl px-4 py-8 shadow h-full">
+                    <h3><b>BSL</b> Management & Maintenance</h3>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- VISION ------------->
-    <section class="min-h-screen bg-gray-700 p-8 flex items-center mb-10 relative overflow-hidden" id="vision">
+    <section class="min-h-screen  p-8 flex items-center mb-10 relative overflow-hidden" id="vision">
         <div class="container mx-auto">
-            <h2 class="text-bsl-accent relative z-30">Our <b>Vision</b></h2>
-            <div aria-hidden="true">
-                <img src="{{asset("img/lines_full.svg")}}" alt="" class="absolute z-0 w-full opacity-10 top-0 left-0 right-0">
-            </div>
-            <div class="grid grid-cols-1 lg:grid-cols-1 items-center gap-32 relative">
+            <h2 class="text-bsl-accent relative z-30 mb-10">Latest <b>Posts</b></h2>
+            <div aria-hidden="true" class="absolute z-0 w-full opacity-10 top-0 left-0 right-0 bg-cover bg-lines_full h-full"></div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 items-center gap-20 relative">
                 <div class="flex flex-col items-center  justify-center h-full">
-                    <div class="bg-gray-50 rounded-3xl p-8 shadow transform text-center h-full flex items-center flex-col justify-center">
-                        <div>
-                            <img src="{{asset("img/logo2.svg")}}" alt="Logo black sun labs" class="w-16 mb-5">
-                        </div>
+                    <article class="bg-gray-50 rounded-3xl p-8 shadow transform text-center h-full flex items-center flex-col justify-center">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p class="text-sm text-gray-500">POSTED: <span>10/10/2021 15:34</span></p>
                         <p class="text-lg  text-left "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, aperiam architecto assumenda consectetur deleniti deserunt dicta dolorum et ex excepturi
                             expedita
                             inventore ipsa itaque molestias
@@ -300,8 +316,40 @@
                             iure,
                             nihil
                             nisi nulla veniam? Ab, harum hic praesentium rem saepe sint velit. Aut dolore officiis optio quae, unde velit!</p>
-                        <a href="#contact" class="mt-10 button-bsl-accent"><span class="font-normal">Contact </span>BSL <span class="font-normal">Team</span></a>
-                    </div>
+                        <a href="#contact" class="mt-10 button-bsl-accent"><span class="font-normal">Read more</a>
+                    </article>
+                </div>
+                <div class="flex flex-col items-center  justify-center h-full">
+                    <article class="bg-gray-50 rounded-3xl p-8 shadow transform text-center h-full flex items-center flex-col justify-center">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p class="text-lg  text-left "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, aperiam architecto assumenda consectetur deleniti deserunt dicta dolorum et ex excepturi
+                            expedita
+                            inventore ipsa itaque molestias
+                            mollitia nam necessitatibus numquam officiis placeat quas, quasi quisquam recusandae sequi, sunt totam vero voluptatem! Accusantium ad aliquam amet animi aspernatur aut autem commodi cum debitis
+                            dicta
+                            dolorem
+                            dolorum eos exercitationem, fugiat, fugit illum inventore iusto libero numquam quaerat quia quo reprehenderit sequi sint, ullam. Accusantium amet aperiam cumque doloremque est excepturi impedit ipsa
+                            iure,
+                            nihil
+                            nisi nulla veniam? Ab, harum hic praesentium rem saepe sint velit. Aut dolore officiis optio quae, unde velit!</p>
+                        <a href="#contact" class="mt-10 button-bsl-accent"><span class="font-normal">Read more</a>
+                    </article>
+                </div>
+                <div class="flex flex-col items-center  justify-center h-full">
+                    <article class="bg-gray-50 rounded-3xl p-8 shadow transform text-center h-full flex items-center flex-col justify-center">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p class="text-lg  text-left "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, aperiam architecto assumenda consectetur deleniti deserunt dicta dolorum et ex excepturi
+                            expedita
+                            inventore ipsa itaque molestias
+                            mollitia nam necessitatibus numquam officiis placeat quas, quasi quisquam recusandae sequi, sunt totam vero voluptatem! Accusantium ad aliquam amet animi aspernatur aut autem commodi cum debitis
+                            dicta
+                            dolorem
+                            dolorum eos exercitationem, fugiat, fugit illum inventore iusto libero numquam quaerat quia quo reprehenderit sequi sint, ullam. Accusantium amet aperiam cumque doloremque est excepturi impedit ipsa
+                            iure,
+                            nihil
+                            nisi nulla veniam? Ab, harum hic praesentium rem saepe sint velit. Aut dolore officiis optio quae, unde velit!</p>
+                        <a href="#contact" class="mt-10 button-bsl-accent"><span class="font-normal">Read more</a>
+                    </article>
                 </div>
             </div>
         </div>

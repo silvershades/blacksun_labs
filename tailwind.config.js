@@ -24,6 +24,7 @@ module.exports = {
                 'lineas-banner-top': "url('/img/lineas2.svg')",
                 'lineas-full': "url('/img/lineas2_full.svg')",
                 'lineas-service': "url('/img/fondo.png')",
+                'lines_full': "url('/img/lines_full.svg')",
             }
         },
     },

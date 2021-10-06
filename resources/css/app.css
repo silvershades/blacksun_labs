@@ -39,7 +39,7 @@
     [multiple],
     textarea,
     select {
-        @apply w-full border-gray-300 focus:ring-4 focus:ring-bsl-light rounded transition shadow-sm outline-none;
+        @apply w-full border-gray-300 focus:border-transparent focus:ring-4 focus:ring-bsl-light rounded transition shadow-sm outline-none;
     }
 
     form label {

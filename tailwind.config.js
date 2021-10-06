@@ -10,9 +10,8 @@ module.exports = {
         },
 
         extend: {
-            skew: {
-                '25': '25deg',
-                '60': '60deg',
+            borderRadius: {
+                '4xl': '3rem',
             },
             colors: {
                 bsl:"#4A59FF",

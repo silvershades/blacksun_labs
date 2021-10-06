@@ -224,24 +224,24 @@
                 <div class="col-span-2">
                     <h2><b>BSL</b> trajectory</h2>
                 </div>
-                <div class="bg-bsl-accent-light transform -rotate-2  rounded-3xl">
-                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-3xl">
+                <div class="bg-bsl-accent-light transform -rotate-2  rounded-4xl">
+                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-4xl">
                         <div class="bg-white rounded-3xl shadow text-bsl text-center p-8 h-full transform -rotate-1">
                             <p class="text-xl">Webs <br> developed</p>
                             <p class="text-6xl font-bold">900+</p>
                         </div>
                     </div>
                 </div>
-                <div class="bg-bsl-accent-light transform -rotate-2  rounded-3xl">
-                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-3xl">
+                <div class="bg-bsl-accent-light transform -rotate-2  rounded-4xl">
+                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-4xl">
                         <div class="bg-white rounded-3xl shadow text-bsl text-center p-8 h-full transform -rotate-1">
                             <p class="text-xl">Brands <br> created</p>
                             <p class="text-6xl font-bold">300+</p>
                         </div>
                     </div>
                 </div>
-                <div class="bg-bsl-accent-light transform -rotate-2  rounded-3xl">
-                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-3xl">
+                <div class="bg-bsl-accent-light transform -rotate-2  rounded-4xl">
+                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-4xl">
                         <div class="bg-white rounded-3xl shadow text-bsl text-center p-8 h-full transform -rotate-1">
                             <p class="text-xl">Years of <br>experience</p>
                             <p class="text-6xl font-bold">15+</p>
@@ -308,9 +308,9 @@
         </div>
     </section>
 
-    <!-- VISION ------------->
-    <section class="min-h-screen  p-8 flex items-center mb-10 relative overflow-hidden" id="vision">
-        <div class="container mx-auto">
+    <!-- BLOG ------------->
+    <section class="min-h-screen shadow-inner bg-gray-600 p-8 flex items-center mb-10 relative overflow-hidden" id="blog">
+        <div class="container mx-auto ">
             <h2 class="text-bsl-accent relative z-30 mb-10">Latest <b>Posts</b></h2>
             <div aria-hidden="true" class="absolute z-0 w-full opacity-10 top-0 left-0 right-0 bg-cover bg-lines_full h-full"></div>
             <div class="grid grid-cols-1 lg:grid-cols-3 items-center gap-20 relative">
@@ -328,7 +328,7 @@
                             iure,
                             nihil
                             nisi nulla veniam? Ab, harum hic praesentium rem saepe sint velit. Aut dolore officiis optio quae, unde velit!</p>
-                        <a href="#contact" class="mt-10 button-bsl-accent"><span class="font-normal">Read more</a>
+                        <a href="#contact" class="mt-10 button-bsl-accent">Read more</a>
                     </article>
                 </div>
                 <div class="flex flex-col items-center  justify-center h-full">
@@ -344,7 +344,7 @@
                             iure,
                             nihil
                             nisi nulla veniam? Ab, harum hic praesentium rem saepe sint velit. Aut dolore officiis optio quae, unde velit!</p>
-                        <a href="#contact" class="mt-10 button-bsl-accent"><span class="font-normal">Read more</a>
+                        <a href="#contact" class="mt-10 button-bsl-accent">Read more</a>
                     </article>
                 </div>
                 <div class="flex flex-col items-center  justify-center h-full">
@@ -360,7 +360,7 @@
                             iure,
                             nihil
                             nisi nulla veniam? Ab, harum hic praesentium rem saepe sint velit. Aut dolore officiis optio quae, unde velit!</p>
-                        <a href="#contact" class="mt-10 button-bsl-accent"><span class="font-normal">Read more</a>
+                        <a href="#contact" class="mt-10 button-bsl-accent">Read more</a>
                     </article>
                 </div>
             </div>

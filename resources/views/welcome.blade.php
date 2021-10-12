@@ -221,8 +221,32 @@
 
         <div class="container mx-auto text-white py-20 mb-14 px-8 lg:px-0">
             <div class="grid grid-cols-1 lg:grid-cols-5 items-center gap-10">
-                <div class="col-span-2">
+                <div class="lg:col-span-2 lg:row-span-2">
                     <h2><b>BSL</b> trajectory</h2>
+                </div>
+                <div class="bg-bsl-accent-light transform -rotate-2  rounded-4xl">
+                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-4xl">
+                        <div class="bg-white rounded-3xl shadow text-bsl text-center p-8 h-full transform -rotate-1">
+                            <p class="text-xl">Webs <br> designed</p>
+                            <p class="text-6xl font-bold">900+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-bsl-accent-light transform -rotate-2  rounded-4xl">
+                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-4xl">
+                        <div class="bg-white rounded-3xl shadow text-bsl text-center p-8 h-full transform -rotate-1">
+                            <p class="text-xl">Webs <br> developed</p>
+                            <p class="text-6xl font-bold">300+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-bsl-accent-light transform -rotate-2  rounded-4xl">
+                    <div class="bg-bsl-light transform rotate-3 p-1 rounded-4xl">
+                        <div class="bg-white rounded-3xl shadow text-bsl text-center p-8 h-full transform -rotate-1">
+                            <p class="text-xl">Years of <br>experience</p>
+                            <p class="text-6xl font-bold">15+</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="bg-bsl-accent-light transform -rotate-2  rounded-4xl">
                     <div class="bg-bsl-light transform rotate-3 p-1 rounded-4xl">
